@@ -1,0 +1,12 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\John\AppData\Local\Temp\space_engineers_f0u7i144.hko -p G:\Blender\Space Engineers Models\Turrets\Series WW2\5 Inch Single\Models\127mmMk12Base_Large.hkt G:\Blender\Space Engineers Models\Turrets\Series WW2\5 Inch Single\Models\127mmMk12Base_Large.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Mon Mar 25 23:46:24 2019, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        Created 1 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [G:\Blender\Space Engineers Models\Turrets\Series WW2\5 Inch Single\Models\127mmMk12Base_Large.hkt].
+    
+    ========== Finished in 00:00:01, 0 Errors, 0 Warnings ==========
