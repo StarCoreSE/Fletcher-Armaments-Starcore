@@ -1365,7 +1365,6 @@
       <CriticalComponent Subtype="Motor" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="6" EndY="6" />
-        <MountPoint Side="Top" StartX="3" StartY="3" EndX="4" EndY="4" />
       </MountPoints>
       <BuildProgressModels>
 		<Model BuildPercentUpperBound="0.50" File="Models\16InchBuild0_Large.mwm" />
@@ -2070,7 +2069,6 @@
       <CriticalComponent Subtype="Motor" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="6" EndY="6" />
-        <MountPoint Side="Top" StartX="3" StartY="3" EndX="4" EndY="4" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.99" File="Models\380mmFR_Build_Large.mwm" />	  
