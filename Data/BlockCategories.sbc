@@ -30,14 +30,11 @@
 		<string>LargeMissileTurret/152mmMLE1930R</string>
 		<string>LargeMissileTurret/152mmMLE1930NR</string>
 		<string>LargeMissileTurret/152mmMLE1936HA</string>
-		<!--<string>ConveyorSorter/CasemateTest</string>-->
 		<string>LargeMissileTurret/15cmSKC28R</string>
 		<string>LargeMissileTurret/15cmSKC28NR</string>
 		<string>ConveyorSorter/PomPomMain</string>
 		<string>ConveyorSorter/150mmCasemate</string>
-
-
-      </ItemIds>
+		 </ItemIds>
     </Category> 
 </CategoryClasses>
 </Definitions>
