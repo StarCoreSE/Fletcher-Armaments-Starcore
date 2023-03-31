@@ -20,7 +20,7 @@
 					<Component Subtype="Construction" Count="200" />
 					<Component Subtype="SmallTube" Count="12" />
 					<Component Subtype="Motor" Count="6" />
-					<Component Subtype="SteelPlate" Count="8000" />
+					<Component Subtype="SteelPlate" Count="7000" />
 			</Components>
 			<CriticalComponent Subtype="Motor" Index="0" />
 			<MountPoints>
@@ -63,7 +63,7 @@
 					<Component Subtype="Construction" Count="200" />
 					<Component Subtype="SmallTube" Count="12" />
 					<Component Subtype="Motor" Count="6" />
-					<Component Subtype="SteelPlate" Count="4000" />
+					<Component Subtype="SteelPlate" Count="3500" />
 			</Components>
 			<CriticalComponent Subtype="Motor" Index="0" />
 			<MountPoints>
@@ -107,7 +107,7 @@
 					<Component Subtype="Construction" Count="200" />
 					<Component Subtype="SmallTube" Count="12" />
 					<Component Subtype="Motor" Count="6" />
-					<Component Subtype="SteelPlate" Count="2000" />
+					<Component Subtype="SteelPlate" Count="1500" />
 			</Components>
 			<CriticalComponent Subtype="Motor" Index="0" />
 			<MountPoints>

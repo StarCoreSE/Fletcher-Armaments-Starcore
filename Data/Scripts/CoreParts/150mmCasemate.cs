@@ -64,7 +64,7 @@ namespace Scripts {
             HardPoint = new HardPointDef
             {
                 PartName = "150mm Casemate Single (test)", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
-                DeviateShotAngle = 05f, // Projectile inaccuracy in degrees.
+                DeviateShotAngle = 0.2f, // Projectile inaccuracy in degrees.
                 AimingTolerance = 1f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
                 AimLeadingPrediction = Advanced, // Level of turret aim prediction; Off, Basic, Accurate, Advanced
                 DelayCeaseFire = 0, // Measured in game ticks (6 = 100ms, 60 = 1 second, etc..). Length of time the weapon continues firing after trigger is released - while a target is available.
@@ -95,8 +95,8 @@ namespace Scripts {
                 },
                 HardWare = new HardwareDef
                 {
-                    RotateRate = 0.016f, // Max traversal speed of azimuth subpart in radians per tick (0.1 is approximately 360 degrees per second).
-                    ElevateRate = 0.008f, // Max traversal speed of elevation subpart in radians per tick.
+                    RotateRate = 0.004f, // Max traversal speed of azimuth subpart in radians per tick (0.1 is approximately 360 degrees per second).
+                    ElevateRate = 0.005f, // Max traversal speed of elevation subpart in radians per tick.
                     MinAzimuth = -90,
                     MaxAzimuth = 90,
                     MinElevation = -35,
@@ -137,7 +137,7 @@ namespace Scripts {
                     TrajectilesPerBarrel = 1, // Number of projectiles per muzzle per fire event.
                     SkipBarrels = 0, // Number of muzzles to skip after each fire event.
                     ReloadTime = 120, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
-                    MagsToLoad = 1, // Number of physical magazines to consume on reload.
+                    MagsToLoad = 4, // Number of physical magazines to consume on reload.
                     DelayUntilFire = 0, // How long the weapon waits before shooting after being told to fire. Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     HeatPerShot = 1, // Heat generated per shot.
                     MaxHeat = 200, // Max heat before weapon enters cooldown (70% of max heat).
@@ -204,7 +204,7 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                FA5SAPShell,FA5SAPShrap, // Must list all primary, shrapnel, and pattern ammos.
+                FA15CmShell,FA15CmShrap // Must list all primary, shrapnel, and pattern ammos.
             },
             //Animations = Weapon75_Animation,
             //Upgrades = UpgradeModules,

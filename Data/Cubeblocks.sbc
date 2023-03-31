@@ -1297,7 +1297,6 @@
       <CriticalComponent Subtype="Motor" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="4" EndY="4" />
-        <MountPoint Side="Top" StartX="2" StartY="2" EndX="3" EndY="3" />
       </MountPoints>
       <BuildProgressModels>
 		<Model BuildPercentUpperBound="0.50" File="Models\6InchBuild50_Large.mwm" />
@@ -1835,7 +1834,7 @@
         <TypeId>LargeMissileTurret</TypeId>
         <SubtypeId>152mmMLE1936HA</SubtypeId>
       </Id>	
-      <DisplayName>6"55 mk50 Triple Burst</DisplayName>
+      <DisplayName>6"55 mk50 Triple QRF</DisplayName>
       <Icon>Textures\GUI\Icons\152mmMLE1936HA_Icon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2471,7 +2470,7 @@
         <TypeId>LargeMissileTurret</TypeId>
         <SubtypeId>127mmMk56</SubtypeId>
       </Id>	
-      <DisplayName>5"/38 Mk56 Rapid Fire</DisplayName>
+      <DisplayName>5"/38 Mk32 QRF</DisplayName>
       <Icon>Textures\GUI\Icons\5InchDualGun.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

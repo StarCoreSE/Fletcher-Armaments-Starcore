@@ -481,6 +481,26 @@
       <Capacity>1</Capacity>
       <AmmoDefinitionId Subtype="5InchShellSap" />
     </AmmoMagazine>
+
+	  <AmmoMagazine>
+		  <Id>
+			  <TypeId>AmmoMagazine</TypeId>
+			  <SubtypeId>5InchHealShell</SubtypeId>
+		  </Id>
+		  <DisplayName>5" AAC Mark 49 Shell</DisplayName>
+		  <Description>5" AAC Mark 49 Round</Description>
+		  <Icon>Textures\GUI\Icons\ammo\5InchShell.dds</Icon>
+		  <Size>
+			  <X>1</X>
+			  <Y>1</Y>
+			  <Z>1</Z>
+		  </Size>
+		  <Mass>25</Mass>
+		  <Volume>2</Volume>
+		  <Model>Models\5InchShell_Small.mwm</Model>
+		  <Capacity>8</Capacity>
+		  <AmmoDefinitionId Subtype="5InchHealShell" />
+	  </AmmoMagazine>
 	
   </AmmoMagazines>
 </Definitions>
