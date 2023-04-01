@@ -18,7 +18,7 @@
       <Mass>60</Mass>
       <Volume>10</Volume>
       <Model>Models\40mmClip_Small.mwm</Model>
-      <Capacity>16</Capacity>
+      <Capacity>1</Capacity>
       <AmmoDefinitionId Subtype="40mmClip" />
     </AmmoMagazine>
 	
