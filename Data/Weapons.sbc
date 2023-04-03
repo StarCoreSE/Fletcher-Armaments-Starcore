@@ -207,73 +207,9 @@
       <ReloadTime>7500</ReloadTime>
     </Weapon>
 	
-	<!-- Royal Navy Guns -->
-	
-     
-	
-    <Weapon>
-      <Id>
-        <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>120mmMkXIIWep</SubtypeId>
-      </Id>
-      <MissileAmmoData RateOfFire="400" ShootSoundName="5InchFire" ShotsInBurst="2" />
-	  <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-      <DeviateShotAngle>0.25</DeviateShotAngle>
-	  <MuzzleFlashLifeSpan>2</MuzzleFlashLifeSpan>
-      <AmmoMagazines>
-        <AmmoMagazine Subtype="120mmShell" />
-      </AmmoMagazines>
-      <ReloadTime>5000</ReloadTime>
-    </Weapon>
-	
 	<!-- Aircraft guns -->
 	
-  <Weapon>
-      <Id>
-        <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>127mmHVAR</SubtypeId>
-      </Id>
-      <MissileAmmoData RateOfFire="500" ShootSoundName="127mmHVARLaunch" ShotsInBurst="4" />
-      <DeviateShotAngle>0.1</DeviateShotAngle>
-      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
-      <AmmoMagazines>
-       <AmmoMagazine Subtype="127mmHVAR" />
-      </AmmoMagazines>
-      <ReloadTime>30000</ReloadTime>
-    </Weapon>
-	
-    <Weapon>
-      <Id>
-        <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>20mmAircannon</SubtypeId>
-      </Id>
-      <ProjectileAmmoData RateOfFire="700" ShootSoundName="20mmOerlikon_Fire" ShotsInBurst="30" />
-	  <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
-      <DeviateShotAngle>1.2</DeviateShotAngle>
-	  <MuzzleFlashLifeSpan>2</MuzzleFlashLifeSpan>
-      <AmmoMagazines>
-        <AmmoMagazine Subtype="2cmClip" />
-      </AmmoMagazines>
-      <ReloadTime>20000</ReloadTime>
-    </Weapon>
-	
-    <Weapon>
-      <Id>
-        <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>12mmAircraftCannon</SubtypeId>
-      </Id>
-      <ProjectileAmmoData RateOfFire="1500" ShootSoundName="12mmFire" ShotsInBurst="300" />
-	  <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
-      <DeviateShotAngle>1</DeviateShotAngle>
-	  <MuzzleFlashLifeSpan>2</MuzzleFlashLifeSpan>
-      <AmmoMagazines>
-        <AmmoMagazine Subtype="12mmAmmoBox" />
-      </AmmoMagazines>
-      <ReloadTime>10000</ReloadTime>
-    </Weapon> 
-	
-	<!-- MNF GUNS -->
-	  
+  
     <Weapon>
       <Id>
         <TypeId>WeaponDefinition</TypeId>
@@ -303,12 +239,7 @@
       </AmmoMagazines>
       <ReloadTime>7500</ReloadTime>
     </Weapon>
-	
-    
-	
-    
-	
-    
+
 	
     <Weapon>
       <Id>
