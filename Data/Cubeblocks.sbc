@@ -2182,7 +2182,7 @@
 			  <TypeId>ConveyorSorter</TypeId>
 			  <SubtypeId>150mmCasemate</SubtypeId>
 		  </Id>
-		  <DisplayName>150mm Casemate TEST</DisplayName>
+		  <DisplayName>150mm Casemate Single</DisplayName>
 		  <Description></Description>
 		  <Icon>Textures\GUI\Icons\Cubes\400mmCasemate_Icon.png</Icon>
 		  <CubeSize>Large</CubeSize>

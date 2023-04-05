@@ -37,7 +37,6 @@ namespace Scripts {
             {
                 Threats = new[] {
                     Grids, // Types of threat to engage: Grids, Projectiles, Characters, Meteors, Neutrals, ScanRoid, ScanPlanet, ScanFriendlyCharacter, ScanFriendlyGrid, ScanEnemyCharacter, ScanEnemyGrid, ScanNeutralCharacter, ScanNeutralGrid, ScanUnOwnedGrid, ScanOwnersGrid
-					Meteors,
                 },
                 SubSystems = new[] {
                     Offense, Utility, Power, Production, Thrust, Jumping, Steering, Any, // Subsystem targeting priority: Offense, Utility, Power, Production, Thrust, Jumping, Steering, Any
@@ -63,7 +62,7 @@ namespace Scripts {
             },
             HardPoint = new HardPointDef
             {
-                PartName = "150mm Casemate Single (test)", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
+                PartName = "150mm Casemate Single", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
                 DeviateShotAngle = 0.2f, // Projectile inaccuracy in degrees.
                 AimingTolerance = 1f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
                 AimLeadingPrediction = Advanced, // Level of turret aim prediction; Off, Basic, Accurate, Advanced
@@ -74,7 +73,7 @@ namespace Scripts {
                 ScanTrackOnly = false, // This weapon only scans and tracks entities, this disables un-needed functionality and customizes for this purpose. 
                 Ui = new UiDef
                 {
-                    RateOfFire = false, // Enables terminal slider for changing rate of fire.
+                    RateOfFire = true, // Enables terminal slider for changing rate of fire.
                     DamageModifier = false, // Enables terminal slider for changing damage per shot.
                     ToggleGuidance = false, // Enables terminal option to disable smart projectile guidance.
                     EnableOverload = false, // Enables terminal option to turn on Overload; this allows energy weapons to double damage per shot, at the cost of quadrupled power draw and heat gain, and 2% self damage on overheat.
@@ -95,12 +94,12 @@ namespace Scripts {
                 },
                 HardWare = new HardwareDef
                 {
-                    RotateRate = 0.004f, // Max traversal speed of azimuth subpart in radians per tick (0.1 is approximately 360 degrees per second).
-                    ElevateRate = 0.005f, // Max traversal speed of elevation subpart in radians per tick.
+                    RotateRate = 0.003f, // Max traversal speed of azimuth subpart in radians per tick (0.1 is approximately 360 degrees per second).
+                    ElevateRate = 0.003f, // Max traversal speed of elevation subpart in radians per tick.
                     MinAzimuth = -90,
                     MaxAzimuth = 90,
-                    MinElevation = -35,
-                    MaxElevation = 35,
+                    MinElevation = -45,
+                    MaxElevation = 45,
                     HomeAzimuth = 0, // Default resting rotation angle
                     HomeElevation = 0, // Default resting elevation
                     InventorySize = 0.912f, // Inventory capacity in kL.
