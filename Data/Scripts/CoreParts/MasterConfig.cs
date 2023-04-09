@@ -51,7 +51,8 @@ namespace Scripts
 			FA128mmC34Remodel,
 			FA128mmL45Remodel,
 			FA138mmMLERemodel,
-            SingleCasemate
+            SingleCasemate,
+            Torpedo635mm
 
             );
           

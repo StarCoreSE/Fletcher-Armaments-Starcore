@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+				<TypeId>ConveyorSorter</TypeId>
+				<SubtypeId>TorpTestBuidl</SubtypeId>
+			</Id>
+			<DisplayName>25" Torpedo Twin</DisplayName>
+			<Description>Twin torpedo Launcher </Description>
+			<Icon>Textures\GUI\Icons\Torpedo_Ammo.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="4"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\TorpTestBuidl.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="50" />
+				 <Component Subtype="Superconductor" Count="150" />
+					<Component Subtype="Construction" Count="240" />
+					<Component Subtype="Motor" Count="120" />
+					<Component Subtype="Reactor" Count="30" />
+					<Component Subtype="Detector" Count="45" />
+					<Component Subtype="Computer" Count="200" />
+					<Component Subtype="MetalGrid" Count="125" />
+					 <Component Subtype="SteelPlate" Count="750" />
+			</Components>
+			 <CriticalComponent Subtype="Computer" Index="0" />>
+			<BlockPairName>TorpTestBuidl</BlockPairName>
+		</Definition>
+	</CubeBlocks>
+</Definitions>
