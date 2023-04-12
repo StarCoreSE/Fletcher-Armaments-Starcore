@@ -2191,17 +2191,17 @@
 		  <ModelOffset x="0" y="0" z="0"/>
 		  <Model>Models\400mmCasemate\Ace_Turret_400mmBlister.mwm</Model>
 		  <Components>
-			  <Component Subtype="SteelPlate" Count="32" />
+			  <Component Subtype="SteelPlate" Count="320" />
 			  <Component Subtype="Construction" Count="30" />
 			  <Component Subtype="SmallTube" Count="20" />
 			  <Component Subtype="MetalGrid" Count="8" />
 			  <Component Subtype="Motor" Count="10" />
 			  <Component Subtype="LargeTube" Count="15" />
-			  <Component Subtype="Computer" Count="5" />
+			  <Component Subtype="Computer" Count="30" />
 			  <Component Subtype="Construction" Count="20" />
-			  <Component Subtype="SteelPlate" Count="30" />
+			  <Component Subtype="SteelPlate" Count="300" />
 		  </Components>
-		  <CriticalComponent Index="0" Subtype="Computer"/>
+		  <CriticalComponent Index="15" Subtype="Computer"/>
 		  <MountPoints>
 			  <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
 			  <MountPoint Side="Left" StartX="0.5" StartY="0.0" EndX="1.0" EndY="1.0"/>
