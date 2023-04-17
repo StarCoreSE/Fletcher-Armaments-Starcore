@@ -7,7 +7,11 @@
 				<SubtypeId>BoforSingleRemodel</SubtypeId>
 			</Id>
 			<DisplayName>40 mm/56 Bofors Single Mount</DisplayName>
-			<Description></Description>
+			<Description>
+				40mm Single Bofor
+				4km Range, only effective vs smart munitions
+				Interim BP: 75
+			</Description>
 			<Icon>Textures\GUI\Icons\Cubes\BoforSingleRemodel.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>

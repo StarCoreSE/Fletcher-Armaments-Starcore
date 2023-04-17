@@ -807,6 +807,12 @@
         <SubtypeId>128mmSKC34</SubtypeId>
       </Id>	
       <DisplayName>128mm/34 Twin Gun</DisplayName>
+	<Description>
+		128mm Twin gun
+		5km AI range
+		Fires HE shell
+		Temp BP: 115
+	</Description>
       <Icon>Textures\GUI\Icons\128mmSKC34.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -874,6 +880,12 @@
         <SubtypeId>128mmL45</SubtypeId>
       </Id>	
       <DisplayName>128mm/34 Single Gun</DisplayName>
+	<Description>
+		128mm Single gun
+		5km AI range
+		Fires HE shell
+		Temp BP: 100
+	</Description>
       <Icon>Textures\GUI\Icons\12.8cmL45_Icon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -940,6 +952,12 @@
         <SubtypeId>15cmTbtsKC36</SubtypeId>
       </Id>	
       <DisplayName>150mm/36 Single</DisplayName>
+	<Description>
+		150mm Single gun
+		5km AI range
+		Fires HE shell
+		Temp BP: 100
+	</Description>
       <Icon>Textures\GUI\Icons\15cmTbtsKC36_Icon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1006,6 +1024,12 @@
         <SubtypeId>15cmTbtsKC36T</SubtypeId>
       </Id>	
       <DisplayName>150mm/36 Twin Gun</DisplayName>
+	<Description>
+		150mm Twin gun
+		5km AI range
+		Fires HE shell
+		Temp BP: 125
+	</Description>
       <Icon>Textures\GUI\Icons\15cmTbtsKC36T_Icon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1074,6 +1098,12 @@
         <SubtypeId>127mmMk32</SubtypeId>
       </Id>	
       <DisplayName>5"/38 Mk32</DisplayName>
+	<Description>
+		127mm Twin gun
+		4.5km AI range
+		Fires HE, SAP and Heal shell
+		Temp BP: 250
+	</Description>
       <Icon>Textures\GUI\Icons\5InchDualGun.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1142,6 +1172,12 @@
         <SubtypeId>127mmMk12</SubtypeId>
       </Id>	
       <DisplayName>5"/38 Mk12</DisplayName>
+	<Description>
+		127mm Single gun
+		4.5km AI range
+		Fires HE, SAP and Heal shell
+		Temp BP: 200
+	</Description>
       <Icon>Textures\GUI\Icons\127mmMk12_Icon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1208,6 +1244,12 @@
         <SubtypeId>127mmMk24</SubtypeId>
       </Id>	
       <DisplayName>5"/38 Mk24</DisplayName>
+	<Description>
+		127mm Single gun
+		4.5km AI range
+		Fires HE, SAP and Heal shell
+		Temp BP: 225
+	</Description>
       <Icon>Textures\GUI\Icons\127mmMk24.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1277,6 +1319,12 @@
         <SubtypeId>6InchTriple</SubtypeId>
       </Id>	
       <DisplayName>6"/47 Triple Gun</DisplayName>
+	<Description>
+		6 Inch Triple gun
+		5.5km Range
+		Fires AP and HE shells
+		Temp BP: 200
+	</Description>
       <Icon>Textures\GUI\Icons\6InchTripleGun.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1344,6 +1392,12 @@
         <SubtypeId>16InchTriple</SubtypeId>
       </Id>	
       <DisplayName>16"/50 Triple Gun</DisplayName>
+	<Description>
+		16 Inch Triple Gun 
+	    7km AI range
+		Fires HE amd AP Shells
+		Temp BP: 400
+	</Description>
       <Icon>Textures\GUI\Icons\16InchTripleGun.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1414,6 +1468,12 @@
         <SubtypeId>381mmDualR</SubtypeId>
       </Id>	
       <DisplayName>15" mk24 Dual</DisplayName>
+	<Description>
+		15 Inch Twin gun
+		7km AI range
+		Fires HE amd AP Shells
+		Temp BP: 200
+	</Description>
       <Icon>Textures\GUI\Icons\381mmR.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1486,6 +1546,12 @@
         <SubtypeId>381mmDualNR</SubtypeId>
       </Id>	
       <DisplayName>15" mk25 Dual</DisplayName>
+	<Description>
+		15 Inch Twin gun
+		7km AI range
+		Fires HE amd AP Shells
+		Temp BP: 200
+	</Description>
       <Icon>Textures\GUI\Icons\381mmNR.dds</Icon>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>

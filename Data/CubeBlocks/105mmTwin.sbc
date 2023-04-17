@@ -7,7 +7,12 @@
 				<SubtypeId>105mmTwin</SubtypeId>
 			</Id>
 			<DisplayName>105mm/33 Dual Gun</DisplayName>
-			<Description></Description>
+			<Description>
+				105mm Twin gun mount
+				Medium fire rate
+				4km range, fires SAP
+				Interim BP: 100
+			</Description>
 			<Icon>Textures\GUI\Icons\Cubes\105mmTwin.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
