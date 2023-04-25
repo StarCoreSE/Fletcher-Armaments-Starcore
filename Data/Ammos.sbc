@@ -430,7 +430,31 @@
 		  <MissileProperties>
 			  <MissileMass>120</MissileMass>
 			  <MissileExplosionRadius>6.5</MissileExplosionRadius>
-			  <MissileModelName>Models\Ammo\TorpReaper_Torp.mwm</MissileModelName>
+			  <MissileModelName>Models\5InchShell_Small.mwm</MissileModelName>
+			  <MissileAcceleration>807</MissileAcceleration>
+			  <MissileInitialSpeed>807</MissileInitialSpeed>
+			  <MissileSkipAcceleration>true</MissileSkipAcceleration>
+			  <MissileExplosionDamage>900</MissileExplosionDamage>
+		  </MissileProperties>
+	  </Ammo>
+
+	  <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+		  <Id>
+			  <TypeId>AmmoDefinition</TypeId>
+			  <SubtypeId>635mmTorpedoPartialGuided</SubtypeId>
+		  </Id>
+		  <BasicProperties>
+			  <DesiredSpeed>807</DesiredSpeed>
+			  <SpeedVariance>0</SpeedVariance>
+			  <MaxTrajectory>12000</MaxTrajectory>
+			  <IsExplosive>true</IsExplosive>
+			  <BackkickForce>3800</BackkickForce>
+			  <PhysicalMaterial>Missile</PhysicalMaterial>
+		  </BasicProperties>
+		  <MissileProperties>
+			  <MissileMass>120</MissileMass>
+			  <MissileExplosionRadius>6.5</MissileExplosionRadius>
+			  <MissileModelName>Models\5InchShell_Small.mwm</MissileModelName>
 			  <MissileAcceleration>807</MissileAcceleration>
 			  <MissileInitialSpeed>807</MissileInitialSpeed>
 			  <MissileSkipAcceleration>true</MissileSkipAcceleration>

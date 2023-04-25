@@ -521,6 +521,25 @@
 		  <Capacity>1</Capacity>
 		  <AmmoDefinitionId Subtype="635mmTorpedo" />
 	  </AmmoMagazine>
-	
+
+	  <AmmoMagazine>
+		  <Id>
+			  <TypeId>AmmoMagazine</TypeId>
+			  <SubtypeId>635mmTorpedoPartialGuided</SubtypeId>
+		  </Id>
+		  <DisplayName>25" Torpedo Partial Guided</DisplayName>
+		  <Description>Temp Torpedo</Description>
+		  <Icon>Textures\GUI\Icons\ammo\5InchShell.dds</Icon>
+		  <Size>
+			  <X>1</X>
+			  <Y>1</Y>
+			  <Z>1</Z>
+		  </Size>
+		  <Mass>25</Mass>
+		  <Volume>2</Volume>
+		  <Model>Models\5InchShell_Small.mwm</Model>
+		  <Capacity>1</Capacity>
+		  <AmmoDefinitionId Subtype="635mmTorpedoPartialGuided" />
+	  </AmmoMagazine>
   </AmmoMagazines>
 </Definitions>
