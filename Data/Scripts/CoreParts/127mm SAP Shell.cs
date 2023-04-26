@@ -114,7 +114,7 @@ namespace Scripts
                 {
                     Base = Kinetic, // Base Damage uses this
                     AreaEffect = Kinetic,
-                    Detonation = Energy,
+                    Detonation = Kinetic,
                     Shield = Kinetic, // Damage against shields is currently all of one type per projectile. Shield Bypass Weapons, always Deal Kinetic regardless of this line
                 },
                 Custom = new CustomScalesDef
