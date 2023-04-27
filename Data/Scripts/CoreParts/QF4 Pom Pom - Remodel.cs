@@ -54,14 +54,14 @@ namespace Scripts {
                 MinimumDiameter = 0, // Minimum radius of threat to engage.
                 MaximumDiameter = 0, // Maximum radius of threat to engage; 0 = unlimited.
                 MaxTargetDistance = 0, // Maximum distance at which targets will be automatically shot at; 0 = unlimited.
-                MinTargetDistance = 500, // Minimum distance at which targets will be automatically shot at.
+                MinTargetDistance = 250, // Minimum distance at which targets will be automatically shot at.
                 TopTargets = 8, // Maximum number of targets to randomize between; 0 = unlimited.
                 CycleTargets = 3, // Number of targets to "cycle" per acquire attempt.
                 TopBlocks = 8, // Maximum number of blocks to randomize between; 0 = unlimited.
                 CycleBlocks = 3, // Number of blocks to "cycle" per acquire attempt.
                 StopTrackingSpeed = 0, // Do not track threats traveling faster than this speed; 0 = unlimited.
                 UniqueTargetPerWeapon = false, // only applies to multi-weapon blocks 
-                MaxTrackingTime = 120, // After this time has been reached the weapon will stop tracking existing target and scan for a new one, only applies to turreted weapons
+                MaxTrackingTime = 240, // After this time has been reached the weapon will stop tracking existing target and scan for a new one, only applies to turreted weapons
                 ShootBlanks = false, // Do not generate projectiles when shooting
                 FocusOnly = false, // This weapon can only track focus targets.
                 EvictUniqueTargets = false, // if this is set it will evict any weapons set to UniqueTargetPerWeapon unless they to have this set
@@ -69,9 +69,9 @@ namespace Scripts {
             HardPoint = new HardPointDef
             {
                 PartName = "QF4 Pom Pom Remodel", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
-                DeviateShotAngle = 2f, // Projectile inaccuracy in degrees.
-                AimingTolerance = 45f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
-                AimLeadingPrediction = Accurate, // Level of turret aim prediction; Off, Basic, Accurate, Advanced
+                DeviateShotAngle = 1f, // Projectile inaccuracy in degrees.
+                AimingTolerance = 15f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
+                AimLeadingPrediction = Advanced, // Level of turret aim prediction; Off, Basic, Accurate, Advanced
                 DelayCeaseFire = 0, // Measured in game ticks (6 = 100ms, 60 = 1 second, etc..). Length of time the weapon continues firing after trigger is released - while a target is available.
                 AddToleranceToTracking = true, // Allows turret to track to the edge of the AimingTolerance cone instead of dead centre.
                 CanShootSubmerged = false, // Whether the weapon can be fired underwater when using WaterMod.
@@ -130,19 +130,19 @@ namespace Scripts {
                 },
                 Loading = new LoadingDef
                 {
-                    RateOfFire = 200, // Set this to 3600 for beam weapons. This is how fast your Gun fires.
+                    RateOfFire = 100, // Set this to 3600 for beam weapons. This is how fast your Gun fires.
                     BarrelsPerShot = 1, // How many muzzles will fire a projectile per fire event.
                     TrajectilesPerBarrel = 1, // Number of projectiles per muzzle per fire event.
                     SkipBarrels = 0, // Number of muzzles to skip after each fire event.
                     ReloadTime = 600, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     MagsToLoad = 16, // Number of physical magazines to consume on reload.
-                    DelayUntilFire = 0, // How long the weapon waits before shooting after being told to fire. Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
+                    DelayUntilFire = 30, // How long the weapon waits before shooting after being told to fire. Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     HeatPerShot = 1, // Heat generated per shot.
                     MaxHeat = 70000, // Max heat before weapon enters cooldown (70% of max heat).
                     Cooldown = .95f, // Percentage of max heat to be under to start firing again after overheat; accepts 0 - 0.95
                     HeatSinkRate = 9000000, // Amount of heat lost per second.
                     DegradeRof = false, // Progressively lower rate of fire when over 80% heat threshold (80% of max heat).
-                    ShotsInBurst = 4, // Use this if you don't want the weapon to fire an entire physical magazine in one go. Should not be more than your magazine capacity.
+                    ShotsInBurst = 2, // Use this if you don't want the weapon to fire an entire physical magazine in one go. Should not be more than your magazine capacity.
                     DelayAfterBurst = 30, // How long to spend "reloading" after each burst. Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     FireFull = false, // Whether the weapon should fire the full magazine (or the full burst instead if ShotsInBurst > 0), even if the target is lost or the player stops firing prematurely.
                     GiveUpAfter = false, // Whether the weapon should drop its current target and reacquire a new target after finishing its magazine or burst.
