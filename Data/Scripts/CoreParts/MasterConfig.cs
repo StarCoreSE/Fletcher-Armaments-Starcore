@@ -5,11 +5,13 @@ namespace Scripts
     {
         internal Parts()
         {
-            // naming convention: WeaponDefinition Name
-            //
-            // Enable your definitions using the follow syntax:
-            // PartDefinitions(Your1stDefinition, Your2ndDefinition, Your3rdDefinition);
-            // PartDefinitions includes both weapons and phantoms
+			// naming convention: WeaponDefinition Name
+			//
+			// Enable your definitions using the follow syntax:
+			// PartDefinitions(Your1stDefinition, Your2ndDefinition, Your3rdDefinition);
+			// PartDefinitions includes both weapons and phantoms
+			ArmorDefinitions(Barbetteset);
+
             PartDefinitions(
 			FA127mmSingle,
 			FA127mmDual,
@@ -53,6 +55,7 @@ namespace Scripts
 			FA138mmMLERemodel,
             SingleCasemate,
             Torpedo635mm
+            
 
             );
           
