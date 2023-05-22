@@ -28,8 +28,6 @@ namespace Scripts
 			FA152mmMLE,
 			FA152mmMLER,
 			FA152mmMLE1936,
-			FA203mmMLE1931,
-			FA203mmMLE1931NR,
 			FA6InchTripleCa,
 			FA381mmR,
 			FA381mmAlt,
@@ -54,8 +52,9 @@ namespace Scripts
 			FA128mmL45Remodel,
 			FA138mmMLERemodel,
             SingleCasemate,
-            Torpedo635mm
-            
+            Torpedo635mm,
+            Quad203
+
 
             );
           

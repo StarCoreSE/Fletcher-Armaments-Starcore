@@ -255,21 +255,6 @@
       </AmmoMagazines>
       <ReloadTime>5000</ReloadTime>
     </Weapon> 
-	
-    <Weapon>
-      <Id>
-        <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>203mm50MLE1931</SubtypeId>
-      </Id>
-      <MissileAmmoData RateOfFire="200" ShootSoundName="6InchFire" ShotsInBurst="2" />
-	  <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-      <DeviateShotAngle>0.4</DeviateShotAngle>
-	  <MuzzleFlashLifeSpan>2</MuzzleFlashLifeSpan>
-      <AmmoMagazines>
-        <AmmoMagazine Subtype="203mm501931_HEShell" />
-      </AmmoMagazines>
-      <ReloadTime>12000</ReloadTime>
-    </Weapon> 
 
      <Weapon>
       <Id>
@@ -305,6 +290,21 @@
 		  <Id>
 			  <TypeId>WeaponDefinition</TypeId>
 			  <SubtypeId>150mmCasemate</SubtypeId>
+		  </Id>
+		  <MissileAmmoData RateOfFire="400" ShootSoundName="5InchFire" ShotsInBurst="2" />
+		  <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+		  <DeviateShotAngle>0.25</DeviateShotAngle>
+		  <MuzzleFlashLifeSpan>2</MuzzleFlashLifeSpan>
+		  <AmmoMagazines>
+			  <AmmoMagazine Subtype="5InchShell" />
+		  </AmmoMagazines>
+		  <ReloadTime>3300</ReloadTime>
+	  </Weapon>
+
+	  <Weapon>
+		  <Id>
+			  <TypeId>WeaponDefinition</TypeId>
+			  <SubtypeId>203mmQuad</SubtypeId>
 		  </Id>
 		  <MissileAmmoData RateOfFire="400" ShootSoundName="5InchFire" ShotsInBurst="2" />
 		  <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>

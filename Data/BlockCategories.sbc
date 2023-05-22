@@ -35,8 +35,9 @@
 		<string>ConveyorSorter/PomPomMain</string>
 		<string>ConveyorSorter/150mmCasemate</string>
 		<string>ConveyorSorter/BoforTwinRemodel</string>
-		<string>ConveyorSorter/BoforSingleRemodel</string> 
-		 </ItemIds>
+		<string>ConveyorSorter/BoforSingleRemodel</string>
+		<string>ConveyorSorter/203mmQuad</string>
+	  </ItemIds>
     </Category> 
 </CategoryClasses>
 </Definitions>

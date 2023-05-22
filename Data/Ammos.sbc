@@ -218,55 +218,31 @@
         <MissileExplosionDamage>1600</MissileExplosionDamage>
       </MissileProperties>
     </Ammo>
-	
-	
-    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
-      <Id>
-        <TypeId>AmmoDefinition</TypeId>
-        <SubtypeId>152mmMLEShell</SubtypeId>
-      </Id>
-      <BasicProperties>
-        <DesiredSpeed>850</DesiredSpeed>
-        <SpeedVariance>0</SpeedVariance>
-        <MaxTrajectory>20000</MaxTrajectory>
-        <IsExplosive>true</IsExplosive>
-        <BackkickForce>4000</BackkickForce>
-        <PhysicalMaterial>Missile</PhysicalMaterial>
-      </BasicProperties>
-      <MissileProperties>
-        <MissileMass>125</MissileMass>
-        <MissileExplosionRadius>2</MissileExplosionRadius>
-        <MissileModelName>Models\152mmMLE1930_ShellFired_Small.mwm</MissileModelName>
-        <MissileAcceleration>0</MissileAcceleration>
-        <MissileInitialSpeed>850</MissileInitialSpeed>
-        <MissileSkipAcceleration>true</MissileSkipAcceleration>
-        <MissileExplosionDamage>1800</MissileExplosionDamage>
-      </MissileProperties>
-    </Ammo>
-	
-    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
-      <Id>
-        <TypeId>AmmoDefinition</TypeId>
-        <SubtypeId>203mmMLEShell</SubtypeId>
-      </Id>
-      <BasicProperties>
-        <DesiredSpeed>850</DesiredSpeed>
-        <SpeedVariance>0</SpeedVariance>
-        <MaxTrajectory>25000</MaxTrajectory>
-        <IsExplosive>true</IsExplosive>
-        <BackkickForce>8000</BackkickForce>
-        <PhysicalMaterial>Missile</PhysicalMaterial>
-      </BasicProperties>
-      <MissileProperties>
-        <MissileMass>119.72</MissileMass>
-        <MissileExplosionRadius>12</MissileExplosionRadius>
-        <MissileModelName>Models\203mmMLE1931_ShellFired_Small.mwm</MissileModelName>
-        <MissileAcceleration>0</MissileAcceleration>
-        <MissileInitialSpeed>850</MissileInitialSpeed>
-        <MissileSkipAcceleration>true</MissileSkipAcceleration>
-        <MissileExplosionDamage>2500</MissileExplosionDamage>
-      </MissileProperties>
-    </Ammo>
+
+
+	  <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+		  <Id>
+			  <TypeId>AmmoDefinition</TypeId>
+			  <SubtypeId>152mmMLEShell</SubtypeId>
+		  </Id>
+		  <BasicProperties>
+			  <DesiredSpeed>850</DesiredSpeed>
+			  <SpeedVariance>0</SpeedVariance>
+			  <MaxTrajectory>20000</MaxTrajectory>
+			  <IsExplosive>true</IsExplosive>
+			  <BackkickForce>4000</BackkickForce>
+			  <PhysicalMaterial>Missile</PhysicalMaterial>
+		  </BasicProperties>
+		  <MissileProperties>
+			  <MissileMass>125</MissileMass>
+			  <MissileExplosionRadius>2</MissileExplosionRadius>
+			  <MissileModelName>Models\152mmMLE1930_ShellFired_Small.mwm</MissileModelName>
+			  <MissileAcceleration>0</MissileAcceleration>
+			  <MissileInitialSpeed>850</MissileInitialSpeed>
+			  <MissileSkipAcceleration>true</MissileSkipAcceleration>
+			  <MissileExplosionDamage>1800</MissileExplosionDamage>
+		  </MissileProperties>
+	  </Ammo>
 
   <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
       <Id>
@@ -461,6 +437,53 @@
 			  <MissileExplosionDamage>900</MissileExplosionDamage>
 		  </MissileProperties>
 	  </Ammo>
-	
+
+	  <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+		  <Id>
+			  <TypeId>AmmoDefinition</TypeId>
+			  <SubtypeId>8InchAPShell</SubtypeId>
+		  </Id>
+		  <BasicProperties>
+			  <DesiredSpeed>807</DesiredSpeed>
+			  <SpeedVariance>0</SpeedVariance>
+			  <MaxTrajectory>12000</MaxTrajectory>
+			  <IsExplosive>true</IsExplosive>
+			  <BackkickForce>3800</BackkickForce>
+			  <PhysicalMaterial>Missile</PhysicalMaterial>
+		  </BasicProperties>
+		  <MissileProperties>
+			  <MissileMass>120</MissileMass>
+			  <MissileExplosionRadius>6.5</MissileExplosionRadius>
+			  <MissileModelName>Models\5InchShell_Small.mwm</MissileModelName>
+			  <MissileAcceleration>807</MissileAcceleration>
+			  <MissileInitialSpeed>807</MissileInitialSpeed>
+			  <MissileSkipAcceleration>true</MissileSkipAcceleration>
+			  <MissileExplosionDamage>900</MissileExplosionDamage>
+		  </MissileProperties>
+	  </Ammo>
+
+	  <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+		  <Id>
+			  <TypeId>AmmoDefinition</TypeId>
+			  <SubtypeId>8InchHE</SubtypeId>
+		  </Id>
+		  <BasicProperties>
+			  <DesiredSpeed>807</DesiredSpeed>
+			  <SpeedVariance>0</SpeedVariance>
+			  <MaxTrajectory>12000</MaxTrajectory>
+			  <IsExplosive>true</IsExplosive>
+			  <BackkickForce>3800</BackkickForce>
+			  <PhysicalMaterial>Missile</PhysicalMaterial>
+		  </BasicProperties>
+		  <MissileProperties>
+			  <MissileMass>120</MissileMass>
+			  <MissileExplosionRadius>6.5</MissileExplosionRadius>
+			  <MissileModelName>Models\5InchShell_Small.mwm</MissileModelName>
+			  <MissileAcceleration>807</MissileAcceleration>
+			  <MissileInitialSpeed>807</MissileInitialSpeed>
+			  <MissileSkipAcceleration>true</MissileSkipAcceleration>
+			  <MissileExplosionDamage>900</MissileExplosionDamage>
+		  </MissileProperties>
+	  </Ammo>
   </Ammos>
 </Definitions>

@@ -362,26 +362,6 @@
       <AmmoDefinitionId Subtype="100mmMLE1931AAShell" />
     </AmmoMagazine>
 	
-	   <AmmoMagazine>
-      <Id>
-        <TypeId>AmmoMagazine</TypeId>
-        <SubtypeId>203mm501931_HEShell</SubtypeId>
-      </Id>
-      <DisplayName>OEA Mle 1931 203mm</DisplayName>
-      <Description>Obus d'artillerie explosif de 203mm</Description>
-      <Icon>Textures\GUI\Icons\ammo\203MLE1931Ammo_icon.dds</Icon>
-      <Size>
-        <X>1</X>
-        <Y>1</Y>
-        <Z>1</Z>
-      </Size>
-      <Mass>119.72</Mass>
-      <Volume>1</Volume>
-      <Model>Models\203mmMLE1931_Shell_Small.mwm</Model>
-      <Capacity>1</Capacity>
-      <AmmoDefinitionId Subtype="203mmMLEShell" />
-    </AmmoMagazine>
-	
    <AmmoMagazine>
       <Id>
         <TypeId>AmmoMagazine</TypeId>
@@ -540,6 +520,46 @@
 		  <Model>Models\5InchShell_Small.mwm</Model>
 		  <Capacity>1</Capacity>
 		  <AmmoDefinitionId Subtype="635mmTorpedoPartialGuided" />
+	  </AmmoMagazine>
+
+	  <AmmoMagazine>
+		  <Id>
+			  <TypeId>AmmoMagazine</TypeId>
+			  <SubtypeId>8HEInchShell</SubtypeId>
+		  </Id>
+		  <DisplayName>25" Torpedo Partial Guided</DisplayName>
+		  <Description>Temp Torpedo</Description>
+		  <Icon>Textures\GUI\Icons\ammo\5InchShell.dds</Icon>
+		  <Size>
+			  <X>1</X>
+			  <Y>1</Y>
+			  <Z>1</Z>
+		  </Size>
+		  <Mass>25</Mass>
+		  <Volume>2</Volume>
+		  <Model>Models\5InchShell_Small.mwm</Model>
+		  <Capacity>1</Capacity>
+		  <AmmoDefinitionId Subtype="8HEInchShell" />
+	  </AmmoMagazine>
+
+	  <AmmoMagazine>
+		  <Id>
+			  <TypeId>AmmoMagazine</TypeId>
+			  <SubtypeId>8InchAPShell</SubtypeId>
+		  </Id>
+		  <DisplayName>25" Torpedo Partial Guided</DisplayName>
+		  <Description>Temp Torpedo</Description>
+		  <Icon>Textures\GUI\Icons\ammo\5InchShell.dds</Icon>
+		  <Size>
+			  <X>1</X>
+			  <Y>1</Y>
+			  <Z>1</Z>
+		  </Size>
+		  <Mass>25</Mass>
+		  <Volume>2</Volume>
+		  <Model>Models\5InchShell_Small.mwm</Model>
+		  <Capacity>1</Capacity>
+		  <AmmoDefinitionId Subtype="8InchAPShell" />
 	  </AmmoMagazine>
   </AmmoMagazines>
 </Definitions>
