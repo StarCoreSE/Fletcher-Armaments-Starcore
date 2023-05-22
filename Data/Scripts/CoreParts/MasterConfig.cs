@@ -53,7 +53,8 @@ namespace Scripts
 			FA138mmMLERemodel,
             SingleCasemate,
             Torpedo635mm,
-            Quad203
+            Quad203,
+            Twin203
 
 
             );

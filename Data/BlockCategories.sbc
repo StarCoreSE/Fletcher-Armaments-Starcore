@@ -37,6 +37,7 @@
 		<string>ConveyorSorter/BoforTwinRemodel</string>
 		<string>ConveyorSorter/BoforSingleRemodel</string>
 		<string>ConveyorSorter/203mmQuad</string>
+		  <string>ConveyorSorter/203mmTwin</string>
 	  </ItemIds>
     </Category> 
 </CategoryClasses>
