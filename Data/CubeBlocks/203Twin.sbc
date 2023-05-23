@@ -8,7 +8,7 @@
 			</Id>
 			<DisplayName>8" Twin Turret</DisplayName>
 			<Description>203mm/8" Twin Turret</Description>
-			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
+			<Icon>Textures\GUI\Icons\203twin.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="2" z="3"/>
