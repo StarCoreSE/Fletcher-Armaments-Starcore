@@ -582,7 +582,7 @@
       <Volume>1</Volume>
 	  <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>5</DynamicMusicAmount>
-	  <SoundLimit>2</SoundLimit>
+	  <SoundLimit>5</SoundLimit>
       <Loopable>false</Loopable>
       <Waves>
         <Wave Type="D3">

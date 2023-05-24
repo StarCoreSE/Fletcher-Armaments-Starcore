@@ -54,7 +54,8 @@ namespace Scripts
             SingleCasemate,
             Torpedo635mm,
             Quad203,
-            Twin203
+            Twin203,
+            QuinTorpLauncher
 
 
             );
