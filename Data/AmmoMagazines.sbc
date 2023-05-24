@@ -281,26 +281,7 @@
       <Capacity>100</Capacity>
       <AmmoDefinitionId Subtype="12mmAmmo" />
     </AmmoMagazine>
-	
-	   <AmmoMagazine>
-      <Id>
-        <TypeId>AmmoMagazine</TypeId>
-        <SubtypeId>152mmMLEShell</SubtypeId>
-      </Id>
-      <DisplayName>152 x 1092 mm 17.1kg OPfk Mle 1937 </DisplayName>
-      <Description>Coquille d'armure perforante de 152 mm</Description>
-      <Icon>Textures\GUI\Icons\ammo\152mm55AP_icon.dds</Icon>
-      <Size>
-        <X>1</X>
-        <Y>1</Y>
-        <Z>1</Z>
-      </Size>
-      <Mass>56.0</Mass>
-      <Volume>1</Volume>
-      <Model>Models\152mmMLE1930_Shell_Small.mwm</Model>
-      <Capacity>1</Capacity>
-      <AmmoDefinitionId Subtype="152mmMLEShell" />
-    </AmmoMagazine>
+
 
 	   <AmmoMagazine>
       <Id>
@@ -420,26 +401,6 @@
       <Model>Models\QF4_14xAmmo_Small.mwm</Model>
       <Capacity>1</Capacity>
       <AmmoDefinitionId Subtype="2lbAmmunition" />
-    </AmmoMagazine>
-	
-    <AmmoMagazine>
-      <Id>
-        <TypeId>AmmoMagazine</TypeId>
-        <SubtypeId>120mmShell</SubtypeId>
-      </Id>
-      <DisplayName>4.7 Inch S.A.P.</DisplayName>
-      <Description>4.7 Inch AP Shell for use with 4.7 Inch Guns</Description>
-      <Icon>Textures\GUI\Icons\ammo\4.7InchShell_Icon.dds</Icon>
-      <Size>
-        <X>1</X>
-        <Y>1</Y>
-        <Z>1</Z>
-      </Size>
-      <Mass>39</Mass>
-      <Volume>2</Volume>
-      <Model>Models\4.7Inch_Shell_Small.mwm</Model>
-      <Capacity>1</Capacity>
-      <AmmoDefinitionId Subtype="120mmShellAmmo" />
     </AmmoMagazine>
 	
 	<AmmoMagazine>

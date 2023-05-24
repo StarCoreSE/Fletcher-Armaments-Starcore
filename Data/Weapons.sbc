@@ -209,54 +209,7 @@
 	
 	<!-- Aircraft guns -->
 	
-  
     <Weapon>
-      <Id>
-        <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>152mmMLE1930</SubtypeId>
-      </Id>
-      <MissileAmmoData RateOfFire="180" ShootSoundName="6InchFire" ShotsInBurst="3" />
-	  <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-      <DeviateShotAngle>0.3</DeviateShotAngle>
-	  <MuzzleFlashLifeSpan>2</MuzzleFlashLifeSpan>
-      <AmmoMagazines>
-        <AmmoMagazine Subtype="152mmMLEShell" />
-      </AmmoMagazines>
-      <ReloadTime>8000</ReloadTime>
-    </Weapon>
-	
-    <Weapon>
-      <Id>
-        <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>152mmMLE1936</SubtypeId>
-      </Id>
-      <MissileAmmoData RateOfFire="180" ShootSoundName="6InchFire" ShotsInBurst="3" />
-	  <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-      <DeviateShotAngle>0.3</DeviateShotAngle>
-	  <MuzzleFlashLifeSpan>2</MuzzleFlashLifeSpan>
-      <AmmoMagazines>
-        <AmmoMagazine Subtype="152mmMLEShell" />
-      </AmmoMagazines>
-      <ReloadTime>7500</ReloadTime>
-    </Weapon>
-
-	
-    <Weapon>
-      <Id>
-        <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>138mmMLE1927</SubtypeId>
-      </Id>
-      <MissileAmmoData RateOfFire="200" ShootSoundName="128mmFire" ShotsInBurst="1" />
-	  <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-      <DeviateShotAngle>1.2</DeviateShotAngle>
-	  <MuzzleFlashLifeSpan>2</MuzzleFlashLifeSpan>
-      <AmmoMagazines>
-        <AmmoMagazine Subtype="139mmHEShell" />
-      </AmmoMagazines>
-      <ReloadTime>5000</ReloadTime>
-    </Weapon> 
-
-     <Weapon>
       <Id>
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>380mmMLE1935</SubtypeId>
@@ -330,21 +283,7 @@
 		  </AmmoMagazines>
 		  <ReloadTime>3300</ReloadTime>
 	  </Weapon>
-
-	  <Weapon>
-		  <Id>
-			  <TypeId>WeaponDefinition</TypeId>
-			  <SubtypeId>quintupleTorpedoLauncher</SubtypeId>
-		  </Id>
-		  <MissileAmmoData RateOfFire="400" ShootSoundName="5InchFire" ShotsInBurst="2" />
-		  <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-		  <DeviateShotAngle>0.25</DeviateShotAngle>
-		  <MuzzleFlashLifeSpan>2</MuzzleFlashLifeSpan>
-		  <AmmoMagazines>
-			  <AmmoMagazine Subtype="5InchShell" />
-		  </AmmoMagazines>
-		  <ReloadTime>3300</ReloadTime>
-	  </Weapon>
+	  
 	
     </Weapons>
 </Definitions>
