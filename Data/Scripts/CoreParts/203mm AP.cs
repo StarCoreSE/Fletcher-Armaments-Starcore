@@ -275,7 +275,7 @@ namespace Scripts
             },
             AmmoGraphics = new GraphicDef
             {
-                ModelName = "\\Models\\6InchShellFired_Small.mwm",
+                ModelName = "\\Models\\381mmShellFired_Small.mwm",
                 VisualProbability = 1f,
                 ShieldHitDraw = true,
                 Particles = new AmmoParticleDef
@@ -315,7 +315,7 @@ namespace Scripts
                     {
                         Name = "",
                         ApplyToShield = true,
-                     //   ShrinkByDistance = false,
+                        //  ShrinkByDistance = false,
                         Color = Color(red: 1f, green: 1f, blue: 1f, alpha: 1),
                         Offset = Vector(x: 0, y: 0, z: 0),
                         Extras = new ParticleOptionDef
@@ -332,22 +332,22 @@ namespace Scripts
                 },
                 Lines = new LineDef
                 {
-                    TracerMaterial = "WeaponLaser", // WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
-                    ColorVariance = Random(start: 0.5f, end: 0.8f), // multiply the color by random values within range.
+                    TracerMaterial = "ProjectileTrailLine", // WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
+                    ColorVariance = Random(start: 1.0f, end: 1.3f), // multiply the color by random values within range.
                     WidthVariance = Random(start: 0f, end: 0.1f), // adds random value to default width (negatives shrinks width)
                     Tracer = new TracerBaseDef
                     {
                         Enable = true,
-                        Length = 7f,
+                        Length = 10f,
                         Width = 0.1f,
-                        Color = Color(red: 40.80f, green: 8.20f, blue: 1.6f, alpha: 0.8f),
+                        Color = Color(red: 25f, green: 25f, blue: 24f, alpha: 0.8f),
                     },
                     Trail = new TrailDef
                     {
                         Enable = true,
                         Material = "WeaponLaser",
-                        DecayTime = 15,
-                        Color = Color(red: 2.585f, green: 2.062f, blue: 2.01f, alpha: 0.3f),
+                        DecayTime = 35,
+                        Color = Color(red: 2.585f, green: 2.062f, blue: 2.01f, alpha: 0.1f),
                         Back = false,
                         CustomWidth = 0.1f,
                         UseWidthVariance = false,
