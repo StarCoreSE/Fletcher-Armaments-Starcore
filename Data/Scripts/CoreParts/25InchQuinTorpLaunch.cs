@@ -226,7 +226,7 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                dumbTorp1, SemiGuidedTorp, TorpLaunchStage,TorpLaunch1, TorpLaunch2  // Must list all primary, shrapnel, and pattern ammos.
+                 TorpLaunch2 , dumbTorp1, SemiGuidedTorp, TorpLaunchStage,TorpLaunch1 // Must list all primary, shrapnel, and pattern ammos.
             },
             //Animations = Weapon75_Animation,
             //Upgrades = UpgradeModules,
