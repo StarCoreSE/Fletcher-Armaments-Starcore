@@ -493,7 +493,7 @@ namespace Scripts
             {
                 MaxIntegrity = 0f, // Blocks with integrity higher than this value will be immune to damage from this projectile; 0 = disabled.
                 DamageVoxels = false, // Whether to damage voxels.
-                SelfDamage = trfalseue, // Whether to damage the weapon's own grid.
+                SelfDamage = false, // Whether to damage the weapon's own grid.
                 HealthHitModifier = 0.5, // How much Health to subtract from another projectile on hit; defaults to 1 if zero or less.
                 VoxelHitModifier = 1, // Voxel damage multiplier; defaults to 1 if zero or less.
                 Characters = -1f, // Character damage multiplier; defaults to 1 if zero or less.
