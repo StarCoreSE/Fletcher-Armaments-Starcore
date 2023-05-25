@@ -36,7 +36,7 @@ namespace Scripts
             AmmoRound = "8InchAP", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 300f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 3000f, // Direct damage; one steel plate is worth 100.
             Mass = 100f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 50000f, // Recoil. This is applied to the Parent Grid.
@@ -58,7 +58,7 @@ namespace Scripts
             },
             Fragment = new FragmentDef // Formerly known as Shrapnel. Spawns specified ammo fragments on projectile death (via hit or detonation).
             {
-                AmmoRound = "6InchShrap", // AmmoRound field of the ammo to spawn.
+                AmmoRound = "", // AmmoRound field of the ammo to spawn.
                 Fragments = 64, // Number of projectiles to spawn.
                 Degrees = 180, // Cone in which to randomise direction of spawned projectiles.
                 Reverse = false, // Spawn projectiles backward instead of forward.
@@ -100,9 +100,9 @@ namespace Scripts
                 Armor = new ArmorDef
                 {
                     Armor = -1f, // Multiplier for damage against all armor. This is multiplied with the specific armor type multiplier (light, heavy).
-                    Light = -1f, // Multiplier for damage against light armor.
-                    Heavy = 1.5f, // Multiplier for damage against heavy armor.
-                    NonArmor = 0.8f, // Multiplier for damage against every else.
+                    Light = 1f, // Multiplier for damage against light armor.
+                    Heavy = 2f, // Multiplier for damage against heavy armor.
+                    NonArmor = 0.9f, // Multiplier for damage against every else.
                 },
                 Shields = new ShieldDef
                 {
