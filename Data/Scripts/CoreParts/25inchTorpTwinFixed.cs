@@ -16,7 +16,7 @@ namespace Scripts {
         // Don't edit above this line
         WeaponDefinition Torpedo635mm => new WeaponDefinition
         {
-            Assignments = new ModelAssignmentsDef
+            Assignments = new ModelAssignmentsDef //Unguided 10km Torpedo
             {
                 MountPoints = new[] {
                     new MountPointDef {
