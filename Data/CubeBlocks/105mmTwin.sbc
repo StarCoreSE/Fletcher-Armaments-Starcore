@@ -21,14 +21,14 @@
 			<Model>Models\Cubes\large\105mmTwin.mwm</Model>
 			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
 			<Components>
-				<Component Subtype="SteelPlate" Count="400" />
-				<Component Subtype="MetalGrid" Count="10" />
-				<Component Subtype="LargeTube" Count="20" />
-				<Component Subtype="Motor" Count="10" />
-				<Component Subtype="Computer" Count="15" />
-				<Component Subtype="Construction" Count="15" />
-				<Component Subtype="MetalGrid" Count="15" />
-				<Component Subtype="SteelPlate" Count="800" />
+				<Component Subtype="SteelPlate" Count="4000" />
+				<Component Subtype="MetalGrid" Count="100" />
+				<Component Subtype="LargeTube" Count="200" />
+				<Component Subtype="Motor" Count="100" />
+				<Component Subtype="Computer" Count="150" />
+				<Component Subtype="Construction" Count="150" />
+				<Component Subtype="MetalGrid" Count="150" />
+				<Component Subtype="SteelPlate" Count="8000" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="15"/>
 			<MountPoints>
