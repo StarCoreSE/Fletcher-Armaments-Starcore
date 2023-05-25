@@ -821,13 +821,13 @@
       <Model>Models\128mmSKC34Base_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="MetalGrid" Count="10" />
-        <Component Subtype="LargeTube" Count="20" />
-        <Component Subtype="Motor" Count="10" />
-        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="MetalGrid" Count="100" />
+        <Component Subtype="LargeTube" Count="200" />
+        <Component Subtype="Motor" Count="100" />
+        <Component Subtype="Computer" Count="100" />
         <Component Subtype="Construction" Count="200" />
-		<Component Subtype="MetalGrid" Count="20" />
+		<Component Subtype="MetalGrid" Count="200" />
         <Component Subtype="SteelPlate" Count="1400" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -894,13 +894,13 @@
       <Model>Models\128mmL45Base_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="MetalGrid" Count="10" />
-        <Component Subtype="LargeTube" Count="20" />
-        <Component Subtype="Motor" Count="10" />
-        <Component Subtype="Computer" Count="10" />
-        <Component Subtype="Construction" Count="200" />
-		<Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="MetalGrid" Count="100" />
+        <Component Subtype="LargeTube" Count="200" />
+        <Component Subtype="Motor" Count="100" />
+        <Component Subtype="Computer" Count="100" />
+        <Component Subtype="Construction" Count="2000" />
+		<Component Subtype="MetalGrid" Count="150" />
         <Component Subtype="SteelPlate" Count="1200" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -966,13 +966,13 @@
       <Model>Models\15cmTbtsKC36_Base_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="MetalGrid" Count="10" />
-        <Component Subtype="LargeTube" Count="20" />
-        <Component Subtype="Motor" Count="10" />
-        <Component Subtype="Computer" Count="10" />
-        <Component Subtype="Construction" Count="200" />
-		<Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="MetalGrid" Count="100" />
+        <Component Subtype="LargeTube" Count="200" />
+        <Component Subtype="Motor" Count="100" />
+        <Component Subtype="Computer" Count="100" />
+        <Component Subtype="Construction" Count="2000" />
+		<Component Subtype="MetalGrid" Count="200" />
         <Component Subtype="SteelPlate" Count="1600" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -1038,13 +1038,13 @@
       <Model>Models\15cmTbtsKC36T_Base_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="MetalGrid" Count="10" />
-        <Component Subtype="LargeTube" Count="20" />
-        <Component Subtype="Motor" Count="10" />
-        <Component Subtype="Computer" Count="10" />
-        <Component Subtype="Construction" Count="300" />
-		<Component Subtype="MetalGrid" Count="30" />
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="MetalGrid" Count="100" />
+        <Component Subtype="LargeTube" Count="200" />
+        <Component Subtype="Motor" Count="100" />
+        <Component Subtype="Computer" Count="100" />
+        <Component Subtype="Construction" Count="3000" />
+		<Component Subtype="MetalGrid" Count="300" />
         <Component Subtype="SteelPlate" Count="1500" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -1112,13 +1112,13 @@
       <Model>Models\Twin5InchGunsBase_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="MetalGrid" Count="10" />
-        <Component Subtype="LargeTube" Count="20" />
-        <Component Subtype="Motor" Count="10" />
-        <Component Subtype="Computer" Count="10" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="MetalGrid" Count="100" />
+        <Component Subtype="LargeTube" Count="200" />
+        <Component Subtype="Motor" Count="100" />
+        <Component Subtype="Computer" Count="100" />
+        <Component Subtype="Construction" Count="200" />
+		<Component Subtype="MetalGrid" Count="200" />
         <Component Subtype="SteelPlate" Count="1600" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -1186,13 +1186,13 @@
       <Model>Models\127mmMk12Base_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="MetalGrid" Count="10" />
-        <Component Subtype="LargeTube" Count="20" />
-        <Component Subtype="Motor" Count="10" />
-        <Component Subtype="Computer" Count="10" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="MetalGrid" Count="100" />
+        <Component Subtype="LargeTube" Count="200" />
+        <Component Subtype="Motor" Count="100" />
+        <Component Subtype="Computer" Count="100" />
+        <Component Subtype="Construction" Count="200" />
+		<Component Subtype="MetalGrid" Count="200" />
         <Component Subtype="SteelPlate" Count="1400" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -1258,13 +1258,13 @@
       <Model>Models\127mmBase_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="8" />
-        <Component Subtype="MetalGrid" Count="8" />
-        <Component Subtype="LargeTube" Count="15" />
-        <Component Subtype="Motor" Count="8" />
-        <Component Subtype="Computer" Count="5" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="SteelPlate" Count="80" />
+        <Component Subtype="MetalGrid" Count="80" />
+        <Component Subtype="LargeTube" Count="150" />
+        <Component Subtype="Motor" Count="80" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="Construction" Count="200" />
+		<Component Subtype="MetalGrid" Count="200" />
         <Component Subtype="SteelPlate" Count="1500" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -1333,13 +1333,13 @@
       <Model>Models\6InchTripleBase_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="MetalGrid" Count="10" />
-        <Component Subtype="LargeTube" Count="20" />
-        <Component Subtype="Motor" Count="15" />
-        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="MetalGrid" Count="100" />
+        <Component Subtype="LargeTube" Count="200" />
+        <Component Subtype="Motor" Count="150" />
+        <Component Subtype="Computer" Count="100" />
         <Component Subtype="Construction" Count="200" />
-		<Component Subtype="MetalGrid" Count="30" />
+		<Component Subtype="MetalGrid" Count="300" />
         <Component Subtype="SteelPlate" Count="2000" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -1406,13 +1406,13 @@
       <Model>Models\16InchBase_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="MetalGrid" Count="30" />
-        <Component Subtype="LargeTube" Count="25" />
-        <Component Subtype="Motor" Count="40" />
-        <Component Subtype="Computer" Count="10" />
-        <Component Subtype="Construction" Count="300" />
-		<Component Subtype="MetalGrid" Count="60" />
+        <Component Subtype="SteelPlate" Count="200" />
+        <Component Subtype="MetalGrid" Count="300" />
+        <Component Subtype="LargeTube" Count="250" />
+        <Component Subtype="Motor" Count="400" />
+        <Component Subtype="Computer" Count="100" />
+        <Component Subtype="Construction" Count="3000" />
+		<Component Subtype="MetalGrid" Count="600" />
         <Component Subtype="SteelPlate" Count="6500" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -1482,13 +1482,13 @@
       <Model>Models\381mmSKC34BaseA_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="MetalGrid" Count="30" />
-        <Component Subtype="LargeTube" Count="25" />
-        <Component Subtype="Motor" Count="40" />
-        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="SteelPlate" Count="200" />
+        <Component Subtype="MetalGrid" Count="300" />
+        <Component Subtype="LargeTube" Count="250" />
+        <Component Subtype="Motor" Count="400" />
+        <Component Subtype="Computer" Count="100" />
         <Component Subtype="Construction" Count="300" />
-		<Component Subtype="MetalGrid" Count="50" />
+		<Component Subtype="MetalGrid" Count="500" />
         <Component Subtype="SteelPlate" Count="6000" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -1561,13 +1561,13 @@
       <Model>Models\381mmSKC34BaseB_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="MetalGrid" Count="30" />
-        <Component Subtype="LargeTube" Count="25" />
-        <Component Subtype="Motor" Count="40" />
-        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="SteelPlate" Count="200" />
+        <Component Subtype="MetalGrid" Count="300" />
+        <Component Subtype="LargeTube" Count="250" />
+        <Component Subtype="Motor" Count="400" />
+        <Component Subtype="Computer" Count="100" />
         <Component Subtype="Construction" Count="300" />
-		<Component Subtype="MetalGrid" Count="50" />
+		<Component Subtype="MetalGrid" Count="500" />
         <Component Subtype="SteelPlate" Count="6000" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -1630,13 +1630,13 @@
       <Model>Models\15cmDualBaseA_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="MetalGrid" Count="10" />
-        <Component Subtype="LargeTube" Count="20" />
-        <Component Subtype="Motor" Count="15" />
-        <Component Subtype="Computer" Count="10" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="MetalGrid" Count="30" />
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="MetalGrid" Count="100" />
+        <Component Subtype="LargeTube" Count="200" />
+        <Component Subtype="Motor" Count="150" />
+        <Component Subtype="Computer" Count="100" />
+        <Component Subtype="Construction" Count="200" />
+		<Component Subtype="MetalGrid" Count="300" />
         <Component Subtype="SteelPlate" Count="1500" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -1703,13 +1703,13 @@
       <Model>Models\15cmDualBaseB_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="MetalGrid" Count="10" />
-        <Component Subtype="LargeTube" Count="20" />
-        <Component Subtype="Motor" Count="15" />
-        <Component Subtype="Computer" Count="10" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="MetalGrid" Count="30" />
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="MetalGrid" Count="100" />
+        <Component Subtype="LargeTube" Count="200" />
+        <Component Subtype="Motor" Count="105" />
+        <Component Subtype="Computer" Count="100" />
+        <Component Subtype="Construction" Count="200" />
+		<Component Subtype="MetalGrid" Count="300" />
         <Component Subtype="SteelPlate" Count="1500" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -1773,13 +1773,13 @@
       <Model>Models\380mm45MLE1935_Base_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="MetalGrid" Count="30" />
-        <Component Subtype="LargeTube" Count="25" />
-        <Component Subtype="Motor" Count="40" />
-        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="SteelPlate" Count="200" />
+        <Component Subtype="MetalGrid" Count="300" />
+        <Component Subtype="LargeTube" Count="250" />
+        <Component Subtype="Motor" Count="400" />
+        <Component Subtype="Computer" Count="100" />
         <Component Subtype="Construction" Count="300" />
-		<Component Subtype="MetalGrid" Count="75" />
+		<Component Subtype="MetalGrid" Count="750" />
         <Component Subtype="SteelPlate" Count="5000" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -1840,13 +1840,13 @@
       <Model>Models\Twin5InchGunsBase_Large.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="MetalGrid" Count="10" />
-        <Component Subtype="LargeTube" Count="20" />
-        <Component Subtype="Motor" Count="10" />
-        <Component Subtype="Computer" Count="10" />
-        <Component Subtype="Construction" Count="20" />
-		<Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="MetalGrid" Count="100" />
+        <Component Subtype="LargeTube" Count="200" />
+        <Component Subtype="Motor" Count="100" />
+        <Component Subtype="Computer" Count="100" />
+        <Component Subtype="Construction" Count="200" />
+		<Component Subtype="MetalGrid" Count="200" />
         <Component Subtype="SteelPlate" Count="1600" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
@@ -1909,14 +1909,14 @@
 		  <Model>Models\400mmCasemate\Ace_Turret_400mmBlister.mwm</Model>
 		  <Components>
 			  <Component Subtype="SteelPlate" Count="320" />
-			  <Component Subtype="Construction" Count="30" />
-			  <Component Subtype="SmallTube" Count="20" />
-			  <Component Subtype="MetalGrid" Count="8" />
-			  <Component Subtype="Motor" Count="10" />
-			  <Component Subtype="LargeTube" Count="15" />
-			  <Component Subtype="Computer" Count="30" />
-			  <Component Subtype="Construction" Count="20" />
-			  <Component Subtype="SteelPlate" Count="300" />
+			  <Component Subtype="Construction" Count="300" />
+			  <Component Subtype="SmallTube" Count="200" />
+			  <Component Subtype="MetalGrid" Count="80" />
+			  <Component Subtype="Motor" Count="100" />
+			  <Component Subtype="LargeTube" Count="150" />
+			  <Component Subtype="Computer" Count="300" />
+			  <Component Subtype="Construction" Count="200" />
+			  <Component Subtype="SteelPlate" Count="5000" />
 		  </Components>
 		  <CriticalComponent Index="15" Subtype="Computer"/>
 		  <MountPoints>
