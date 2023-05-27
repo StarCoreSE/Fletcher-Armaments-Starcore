@@ -19,7 +19,6 @@ namespace Scripts
 			FA127mmMK56,
 			FA128mmL45,
 			FA128mmC34,
-			FA15CmTwin,
 			FA15CmSingle,
 			FA15CmCATwin,
 			FA15CmCATwinNR,
@@ -41,7 +40,8 @@ namespace Scripts
             Torpedo635mm,
             Quad203,
             Twin203,
-            QuinTorpLauncher
+            QuinTorpLauncher,
+            CasemateTwin
 
 
             );

@@ -53,7 +53,7 @@ namespace Scripts {
                 LockedSmartOnly = false, // Only fire at smart projectiles that are locked on to parent grid.
                 MinimumDiameter = 0, // Minimum radius of threat to engage.
                 MaximumDiameter = 0, // Maximum radius of threat to engage; 0 = unlimited.
-                MaxTargetDistance = 3000, // Maximum distance at which targets will be automatically shot at; 0 = unlimited.
+                MaxTargetDistance = 5000, // Maximum distance at which targets will be automatically shot at; 0 = unlimited.
                 MinTargetDistance = 0, // Minimum distance at which targets will be automatically shot at.
                 TopTargets = 4, // Maximum number of targets to randomize between; 0 = unlimited.
                 CycleTargets = 0, // Number of targets to "cycle" per acquire attempt.
@@ -85,8 +85,8 @@ namespace Scripts {
             HardPoint = new HardPointDef
             {
                 PartName = "25 Inch quintuple torpedo launcher", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
-                DeviateShotAngle = 0f, // Projectile inaccuracy in degrees.
-                AimingTolerance = 0f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
+                DeviateShotAngle = 1f, // Projectile inaccuracy in degrees.
+                AimingTolerance = 15f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
                 AimLeadingPrediction = Accurate, // Level of turret aim prediction; Off, Basic, Accurate, Advanced
                 DelayCeaseFire = 0, // Measured in game ticks (6 = 100ms, 60 = 1 second, etc..). Length of time the weapon continues firing after trigger is released - while a target is available.
                 AddToleranceToTracking = false, // Allows turret to track to the edge of the AimingTolerance cone instead of dead centre.
@@ -158,11 +158,11 @@ namespace Scripts {
                     BarrelsPerShot = 1, // How many muzzles will fire a projectile per fire event.
                     TrajectilesPerBarrel = 1, // Number of projectiles per muzzle per fire event.
                     SkipBarrels = 0, // Number of muzzles to skip after each fire event.
-                    ReloadTime = 27, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
+                    ReloadTime = 2700, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     MagsToLoad = 5, // Number of physical magazines to consume on reload.
                     DelayUntilFire = 0, // How long the weapon waits before shooting after being told to fire. Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     HeatPerShot = 1, // Heat generated per shot.
-                    MaxHeat = 70000, // Max heat before weapon enters cooldown (70% of max heat).
+                    MaxHeat = 900000, // Max heat before weapon enters cooldown (70% of max heat).
                     Cooldown = .95f, // Percentage of max heat to be under to start firing again after overheat; accepts 0 - 0.95
                     HeatSinkRate = 9000000, // Amount of heat lost per second.
                     DegradeRof = false, // Progressively lower rate of fire when over 80% heat threshold (80% of max heat).
@@ -176,8 +176,8 @@ namespace Scripts {
                     StayCharged = false, // Will start recharging whenever power cap is not full.
                     MaxActiveProjectiles = 0, // Maximum number of drones in flight (only works for drone launchers)
                     MaxReloads = 0, // Maximum number of reloads in the LIFETIME of a weapon
-                    GoHomeToReload = false, // Tells the weapon it must be in the home position before it can reload.
-                    DropTargetUntilLoaded = false, // If true this weapon will drop the target when its out of ammo and until its reloaded.
+                    GoHomeToReload = true, // Tells the weapon it must be in the home position before it can reload.
+                    DropTargetUntilLoaded = true, // If true this weapon will drop the target when its out of ammo and until its reloaded.
                 },
                 Audio = new HardPointAudioDef
                 {

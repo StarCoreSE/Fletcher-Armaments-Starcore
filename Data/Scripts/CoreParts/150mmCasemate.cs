@@ -19,16 +19,16 @@ namespace Scripts {
                     new MountPointDef {
                         SubtypeId = "150mmCasemate", // Block Subtypeid. Your Cubeblocks contain this information
                         SpinPartId = "None", // For weapons with a spinning barrel such as Gatling Guns. Subpart_Boomsticks must be written as Boomsticks.
-                        MuzzlePartId = "MissileTurretBarrels", // The subpart where your muzzle empties are located. This is often the elevation subpart. Subpart_Boomsticks must be written as Boomsticks.
-                        AzimuthPartId = "MissileTurretBase1", // Your Rotating Subpart, the bit that moves sideways.
-                        ElevationPartId = "MissileTurretBarrels",// Your Elevating Subpart, that bit that moves up.
+                        MuzzlePartId = "elevation", // The subpart where your muzzle empties are located. This is often the elevation subpart. Subpart_Boomsticks must be written as Boomsticks.
+                        AzimuthPartId = "azimuth", // Your Rotating Subpart, the bit that moves sideways.
+                        ElevationPartId = "elevation",// Your Elevating Subpart, that bit that moves up.
                         DurabilityMod = 0.07f, // GeneralDamageMultiplier, 0.25f = 25% damage taken.
                         IconName = "TestIcon.dds" // Overlay for block inventory slots, like reactors, refineries, etc.
                     },
                     
                  },
                 Muzzles = new[] {
-                    "muzzle_missile_1", // Where your Projectiles spawn. Use numbers not Letters. IE Muzzle_01 not Muzzle_A
+                    "barrel_1", // Where your Projectiles spawn. Use numbers not Letters. IE Muzzle_01 not Muzzle_A
                 },
                 Ejector = "", // Optional; empty from which to eject "shells" if specified.
                 Scope = "camera", // Where line of sight checks are performed from. Must be clear of block collision.
@@ -46,7 +46,7 @@ namespace Scripts {
                 LockedSmartOnly = false, // Only fire at smart projectiles that are locked on to parent grid.
                 MinimumDiameter = 0, // Minimum radius of threat to engage.
                 MaximumDiameter = 0, // Maximum radius of threat to engage; 0 = unlimited.
-                MaxTargetDistance = 4500, // Maximum distance at which targets will be automatically shot at; 0 = unlimited.
+                MaxTargetDistance = 4000, // Maximum distance at which targets will be automatically shot at; 0 = unlimited.
                 MinTargetDistance = 0, // Minimum distance at which targets will be automatically shot at.
                 TopTargets = 4, // Maximum number of targets to randomize between; 0 = unlimited.
                 CycleTargets = 0, // Number of targets to "cycle" per acquire attempt.
@@ -96,8 +96,8 @@ namespace Scripts {
                 {
                     RotateRate = 0.003f, // Max traversal speed of azimuth subpart in radians per tick (0.1 is approximately 360 degrees per second).
                     ElevateRate = 0.003f, // Max traversal speed of elevation subpart in radians per tick.
-                    MinAzimuth = -90,
-                    MaxAzimuth = 90,
+                    MinAzimuth = -45,
+                    MaxAzimuth = 45,
                     MinElevation = -45,
                     MaxElevation = 45,
                     HomeAzimuth = 0, // Default resting rotation angle

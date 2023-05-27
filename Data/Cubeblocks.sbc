@@ -1018,78 +1018,6 @@
       <MaxFov>1.04719755</MaxFov>
     </Definition>
 	
-<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-      <Id>
-        <TypeId>LargeMissileTurret</TypeId>
-        <SubtypeId>15cmTbtsKC36T</SubtypeId>
-      </Id>	
-      <DisplayName>150mm/36 Twin Gun</DisplayName>
-	<Description>
-		150mm Twin gun
-		5km AI range
-		Fires HE shell
-		Temp BP: 125
-	</Description>
-      <Icon>Textures\GUI\Icons\15cmTbtsKC36T_Icon.dds</Icon>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="2" z="3" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\15cmTbtsKC36T_Base_Large.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="MetalGrid" Count="100" />
-        <Component Subtype="LargeTube" Count="200" />
-        <Component Subtype="Motor" Count="100" />
-        <Component Subtype="Computer" Count="100" />
-        <Component Subtype="Construction" Count="3000" />
-		<Component Subtype="MetalGrid" Count="300" />
-        <Component Subtype="SteelPlate" Count="1500" />
-      </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" />
-      </MountPoints>
-      <BuildProgressModels>
-		<Model BuildPercentUpperBound="0.99" File="Models\15cmTbtsk_Build_Large.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\15cmTbtsKC36T_Base_Large.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>15cmTbtsKC36T</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>40</BuildTimeSeconds>
-      <OverlayTexture>Textures\GUI\HUD\GermanTankSight.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="15cmTbtsKC36T" />
-      <InventoryMaxVolume>100</InventoryMaxVolume>
-      <DamageEffectId>213</DamageEffectId>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <ResourceSinkGroup>Defense</ResourceSinkGroup>
-      <MinElevationDegrees>-5</MinElevationDegrees>
-      <MaxElevationDegrees>65</MaxElevationDegrees>
-      <MinAzimuthDegrees>-145</MinAzimuthDegrees>
-      <MaxAzimuthDegrees>145</MaxAzimuthDegrees>
-      <IdleRotation>false</IdleRotation>
-      <MaxRangeMeters>10000</MaxRangeMeters>
-      <RotationSpeed>0.00070</RotationSpeed>
-      <ElevationSpeed>0.00025</ElevationSpeed>
-      <MinFov>0.1</MinFov>
-      <MaxFov>1.04719755</MaxFov>
-    </Definition>
-	
 
 
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
@@ -1621,7 +1549,13 @@
         <TypeId>LargeMissileTurret</TypeId>
         <SubtypeId>15cmSKC28R</SubtypeId>
       </Id>	
-      <DisplayName>150mm mk31 Twin</DisplayName>
+      <DisplayName>150mm/36 Twin</DisplayName>
+	    <Description>
+         150mm Twin gun
+		    5km AI range
+		    Fires HE shell
+		    Temp BP: 125
+	    </Description>
       <Icon>Textures\GUI\Icons\15cmR.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1693,7 +1627,13 @@
         <TypeId>LargeMissileTurret</TypeId>
         <SubtypeId>15cmSKC28NR</SubtypeId>
       </Id>	
-      <DisplayName>150mm mk32 Twin</DisplayName>
+      <DisplayName>150mm/36 Twin</DisplayName>
+	<Description>
+            150mm Twin gun
+		    5km AI range
+		    Fires HE shell
+		    Temp BP: 125
+	    </Description>
       <Icon>Textures\GUI\Icons\15cmNR.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
@@ -1765,6 +1705,12 @@
         <SubtypeId>380mmMLE1935</SubtypeId>
       </Id>	
       <DisplayName>15"/45 mk20 Quad gun</DisplayName>
+	<Description>
+		15 Inch Quad gun
+		7km AI range
+		Fires HE amd AP Shells
+		Temp BP: 400
+	</Description>
       <Icon>Textures\GUI\Icons\380mmMLE1935_Icon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1832,6 +1778,12 @@
         <SubtypeId>127mmMk56</SubtypeId>
       </Id>	
       <DisplayName>5"/38 Mk32 QRF</DisplayName>
+		<Description>
+			127mm Twin Rapid Fire gun
+			4.5km AI range
+			Fires HE, SAP shell
+			Temp BP: 350
+		</Description>
       <Icon>Textures\GUI\Icons\5InchDualGun.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1892,75 +1844,6 @@
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
     </Definition>
-
-	  <!-- 150mm Casemate Test -->
-	  <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		  <Id>
-			  <TypeId>ConveyorSorter</TypeId>
-			  <SubtypeId>150mmCasemate</SubtypeId>
-		  </Id>
-		  <DisplayName>150mm Casemate Single</DisplayName>
-		  <Description></Description>
-		  <Icon>Textures\GUI\Icons\Cubes\400mmCasemate_Icon.png</Icon>
-		  <CubeSize>Large</CubeSize>
-		  <BlockTopology>TriangleMesh</BlockTopology>
-		  <Size x="1" y="1" z="1"/>
-		  <ModelOffset x="0" y="0" z="0"/>
-		  <Model>Models\400mmCasemate\Ace_Turret_400mmBlister.mwm</Model>
-		  <Components>
-			  <Component Subtype="SteelPlate" Count="320" />
-			  <Component Subtype="Construction" Count="300" />
-			  <Component Subtype="SmallTube" Count="200" />
-			  <Component Subtype="MetalGrid" Count="80" />
-			  <Component Subtype="Motor" Count="100" />
-			  <Component Subtype="LargeTube" Count="150" />
-			  <Component Subtype="Computer" Count="300" />
-			  <Component Subtype="Construction" Count="200" />
-			  <Component Subtype="SteelPlate" Count="5000" />
-		  </Components>
-		  <CriticalComponent Index="15" Subtype="Computer"/>
-		  <MountPoints>
-			  <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
-			  <MountPoint Side="Left" StartX="0.5" StartY="0.0" EndX="1.0" EndY="1.0"/>
-			  <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0"/>
-			  <MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5"/>
-			  <MountPoint Side="Bottom" StartX="0.0" StartY="0.5" EndX="1.0" EndY="1.0"/>
-		  </MountPoints>
-		  <BuildProgressModels>
-			  <Model BuildPercentUpperBound="0.33" File="Models\400mmCasemate\Ace_Turret_400mmBlister_BS1.mwm"/>
-			  <Model BuildPercentUpperBound="0.66" File="Models\400mmCasemate\Ace_Turret_400mmBlister_BS2.mwm"/>
-			  <Model BuildPercentUpperBound="1.0" File="Models\400mmCasemate\Ace_Turret_400mmBlister_BS3.mwm"/>
-		  </BuildProgressModels>
-		  <VoxelPlacement>
-			  <StaticMode>
-				  <PlacementMode>OutsideVoxel</PlacementMode>
-				  <MaxAllowed>0.2</MaxAllowed>
-				  <MinAllowed>0</MinAllowed>
-			  </StaticMode>
-			  <DynamicMode>
-				  <PlacementMode>OutsideVoxel</PlacementMode>
-				  <MaxAllowed>0.2</MaxAllowed>
-				  <MinAllowed>0.01</MinAllowed>
-			  </DynamicMode>
-		  </VoxelPlacement>
-		  <BlockPairName>150mmCasemate</BlockPairName>
-		  <MirroringY>Z</MirroringY>
-		  <MirroringZ>Y</MirroringZ>
-		  <EdgeType>Light</EdgeType>
-		  <BuildTimeSeconds>30</BuildTimeSeconds>
-		  <OverlayTexture>Textures\GUI\Screens\AWP_TurretOverlay_Universal.dds</OverlayTexture>
-		  <WeaponDefinitionId Subtype="SingleCasemate" />
-		  <InventoryMaxVolume>0.912</InventoryMaxVolume>
-		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-		  <DamagedSound>ParticleWeapExpl</DamagedSound>
-		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
-		  <EmissiveColorPreset>Default</EmissiveColorPreset>
-		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-		  <DestroySound>WepSmallWarheadExpl</DestroySound>
-		  <PCU>175</PCU>
-		  <TargetingGroups>
-			  <string>Weapons</string>
-		  </TargetingGroups>
-	  </Definition>
+	  
 	</CubeBlocks>
 </Definitions>
