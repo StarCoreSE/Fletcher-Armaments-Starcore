@@ -1770,9 +1770,9 @@
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
     </Definition>
-	
-	
-	<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+
+
+	  <!--<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
         <SubtypeId>127mmMk56</SubtypeId>
@@ -1843,7 +1843,7 @@
       <ElevationSpeed>0.001</ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-    </Definition>
+    </Definition> -->
 	  
 	</CubeBlocks>
 </Definitions>

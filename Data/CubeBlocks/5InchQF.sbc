@@ -4,33 +4,36 @@
 		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
 			<Id>
 				<TypeId>ConveyorSorter</TypeId>
-				<SubtypeId>203mmQuad</SubtypeId>
+				<SubtypeId>127mmMk56</SubtypeId>
 			</Id>
-			<DisplayName>8" Quad Turret</DisplayName>
-			<Description>Quad barreled 203mm/8 Inch
-			Fires HE, AP
-			Ai range of 6.5km, shell range of 7km	</Description>
-			<Icon>Textures\GUI\Icons\203quad.dds</Icon>
+			<DisplayName>5"/38 Mk32 QRF</DisplayName>
+			<Description>
+				127mm Twin Rapid Fire gun
+				4.5km AI range
+				Fires HE, SAP shell
+				Temp BP: 350
+			</Description>
+			<Icon>Textures\GUI\Icons\5InQF.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="5" y="2" z="5"/>
+			<Size x="3" y="2" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\203quad\Aziumuth.mwm</Model>
+			<Model>Models\5InchQF\Barbette.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="8000" />
+				<Component Subtype="SteelPlate" Count="100" />
 				<Component Subtype="MetalGrid" Count="100" />
 				<Component Subtype="LargeTube" Count="200" />
 				<Component Subtype="Motor" Count="100" />
 				<Component Subtype="Computer" Count="100" />
-				<Component Subtype="Construction" Count="2000" />
+				<Component Subtype="Construction" Count="200" />
 				<Component Subtype="MetalGrid" Count="200" />
-				<Component Subtype="SteelPlate" Count="16000" />
+				<Component Subtype="SteelPlate" Count="1600" />
 			</Components>
 			<CriticalComponent Subtype="Motor" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" />
 			</MountPoints>
-			<BlockPairName>203mmQuad</BlockPairName>
+			<BlockPairName>127mmMk56</BlockPairName>
 		</Definition>
 	</CubeBlocks>
 </Definitions>
