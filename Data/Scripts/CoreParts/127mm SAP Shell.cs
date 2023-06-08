@@ -62,7 +62,7 @@ namespace Scripts
                 Fragments = 15, // Number of projectiles to spawn.
                 Degrees = 180, // Cone in which to randomise direction of spawned projectiles.
                 Reverse = false, // Spawn projectiles backward instead of forward.
-                DropVelocity = false, // fragments will not inherit velocity from parent.
+                DropVelocity = true, // fragments will not inherit velocity from parent.
                 Offset = 0f, // Offsets the fragment spawn by this amount, in meters (positive forward, negative for backwards).
             },
             Pattern = new PatternDef
