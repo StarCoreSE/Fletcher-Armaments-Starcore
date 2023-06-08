@@ -411,5 +411,29 @@
 			  <MissileExplosionDamage>900</MissileExplosionDamage>
 		  </MissileProperties>
 	  </Ammo>
+  
+ <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>105mmHE</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>900</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>6000</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>3800</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>1220</MissileMass>
+        <MissileExplosionRadius>4</MissileExplosionRadius>
+        <MissileModelName>Models\105mmShellFired_Small.mwm</MissileModelName>
+        <MissileAcceleration>900</MissileAcceleration>
+        <MissileInitialSpeed>900</MissileInitialSpeed>
+        <MissileSkipAcceleration>true</MissileSkipAcceleration>
+        <MissileExplosionDamage>400</MissileExplosionDamage>
+      </MissileProperties>
+    </Ammo>
   </Ammos>
 </Definitions>

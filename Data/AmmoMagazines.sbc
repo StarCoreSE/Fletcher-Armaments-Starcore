@@ -522,5 +522,25 @@
 		  <Capacity>1</Capacity>
 		  <AmmoDefinitionId Subtype="8InchAPShell" />
 	  </AmmoMagazine>
+
+	  <AmmoMagazine>
+		  <Id>
+			  <TypeId>AmmoMagazine</TypeId>
+			  <SubtypeId>105mmHE</SubtypeId>
+		  </Id>
+		  <DisplayName>105mm HE Shell</DisplayName>
+		  <Description>105mm High Explosive Shell</Description>
+		  <Icon>Textures\GUI\Icons\ammo\10cmRound_Icon.dds</Icon>
+		  <Size>
+			  <X>1</X>
+			  <Y>1</Y>
+			  <Z>1</Z>
+		  </Size>
+		  <Mass>23</Mass>
+		  <Volume>6</Volume>
+		  <Model>Models\105mmShell_Small.mwm</Model>
+		  <Capacity>1</Capacity>
+		  <AmmoDefinitionId Subtype="105mmHE" />
+	  </AmmoMagazine>
   </AmmoMagazines>
 </Definitions>
