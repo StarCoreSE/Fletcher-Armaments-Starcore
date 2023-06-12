@@ -39,7 +39,7 @@ namespace Scripts
             BaseDamage = 100f, // Direct damage; one steel plate is worth 100.
             Mass = 100f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
-            BackKickForce = 50000f, // Recoil. This is applied to the Parent Grid.
+            BackKickForce = 50f, // Recoil. This is applied to the Parent Grid.
             DecayPerShot = 0f, // Damage to the firing weapon itself.
             HardPointUsable = true, // Whether this is a primary ammo type fired directly by the turret. Set to false if this is a shrapnel ammoType and you don't want the turret to be able to select it directly.
 
@@ -102,11 +102,11 @@ namespace Scripts
                     Armor = -1f, // Multiplier for damage against all armor. This is multiplied with the specific armor type multiplier (light, heavy).
                     Light = -1f, // Multiplier for damage against light armor.
                     Heavy = 1.5f, // Multiplier for damage against heavy armor.
-                    NonArmor = 0.8f, // Multiplier for damage against every else.
+                    NonArmor = 1.2f, // Multiplier for damage against every else.
                 },
                 Shields = new ShieldDef
                 {
-                    Modifier = 4f, // Multiplier for damage against shields.
+                    Modifier = 5f, // Multiplier for damage against shields.
                     Type = Default, // Damage vs healing against shields; Default, Heal
                     BypassModifier = -1f, // If greater than zero, the percentage of damage that will penetrate the shield.
                 },
@@ -395,9 +395,9 @@ namespace Scripts
     HybridRound = false, // Use both a physical ammo magazine and energy per shot.
     EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
     BaseDamage = 3500f, // Direct damage; one steel plate is worth 100.
-    Mass = 100f, // In kilograms; how much force the impact will apply to the target.
+    Mass = 10f, // In kilograms; how much force the impact will apply to the target.
     Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
-    BackKickForce = 50000f, // Recoil. This is applied to the Parent Grid.
+    BackKickForce = 5f, // Recoil. This is applied to the Parent Grid.
     DecayPerShot = 0f, // Damage to the firing weapon itself.
     HardPointUsable = false, // Whether this is a primary ammo type fired directly by the turret. Set to false if this is a shrapnel ammoType and you don't want the turret to be able to select it directly.
 
@@ -460,7 +460,7 @@ namespace Scripts
             Armor = -1f, // Multiplier for damage against all armor. This is multiplied with the specific armor type multiplier (light, heavy).
             Light = 1.2f, // Multiplier for damage against light armor.
             Heavy = 2f, // Multiplier for damage against heavy armor.
-            NonArmor = 0.2f, // Multiplier for damage against every else.
+            NonArmor = 0.6f, // Multiplier for damage against every else.
         },
         Shields = new ShieldDef
         {
