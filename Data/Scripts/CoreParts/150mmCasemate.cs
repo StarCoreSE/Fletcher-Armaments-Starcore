@@ -203,7 +203,7 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                FA15CmShell,FA15CmShrap // Must list all primary, shrapnel, and pattern ammos.
+                FA15CmCaShell,FA15CmShrap // Must list all primary, shrapnel, and pattern ammos.
             },
             //Animations = Weapon75_Animation,
             //Upgrades = UpgradeModules,
