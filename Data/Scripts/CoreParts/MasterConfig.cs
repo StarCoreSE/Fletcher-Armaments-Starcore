@@ -17,8 +17,6 @@ namespace Scripts
 			FA127mmDual,
 			FA127mmMk24,
 			FA127mmMK56,
-			FA128mmL45,
-			FA128mmC34,
 			FA15CmSingle,
 			FA15CmCATwin,
 			FA15CmCATwinNR,

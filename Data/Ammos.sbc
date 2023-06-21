@@ -91,7 +91,7 @@
       <MissileProperties>
         <MissileMass>120</MissileMass>
         <MissileExplosionRadius>1</MissileExplosionRadius>
-        <MissileModelName>Models\128mmShellFired_Small.mwm</MissileModelName>
+        <MissileModelName></MissileModelName>
         <MissileAcceleration>830</MissileAcceleration>
         <MissileInitialSpeed>830</MissileInitialSpeed>
         <MissileSkipAcceleration>true</MissileSkipAcceleration>

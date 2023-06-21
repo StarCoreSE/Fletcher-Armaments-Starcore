@@ -801,7 +801,7 @@
 
 
 
-<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+<!--<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
         <SubtypeId>128mmSKC34</SubtypeId>
@@ -946,7 +946,7 @@
       <ElevationSpeed>0.0005</ElevationSpeed>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
-    </Definition>
+    </Definition> -->
 	
 <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>

@@ -117,7 +117,7 @@
       </Size>
       <Mass>25</Mass>
       <Volume>1</Volume>
-      <Model>Models\128mmShell_Small.mwm</Model>
+      <Model></Model>
       <Capacity>1</Capacity>
       <AmmoDefinitionId Subtype="128mmShell" />
     </AmmoMagazine>
