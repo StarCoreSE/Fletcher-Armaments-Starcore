@@ -809,9 +809,10 @@
       <DisplayName>128mm/34 Twin Gun</DisplayName>
 	<Description>
 		128mm Twin gun
-		5km AI range
-		Fires HE shell
-		Temp BP: 115
+		4.5km AI range
+		Fires HE, SAP and Heal shell
+		Temp BP: 250
+		Missileturret: DO NOT GROUP
 	</Description>
       <Icon>Textures\GUI\Icons\128mmSKC34.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -882,9 +883,10 @@
       <DisplayName>128mm/34 Single Gun</DisplayName>
 	<Description>
 		128mm Single gun
-		5km AI range
-		Fires HE shell
-		Temp BP: 100
+		4.5km AI range
+		Fires HE, SAP and Heal shell
+		Temp BP: 200
+		Missileturret: DO NOT GROUP
 	</Description>
       <Icon>Textures\GUI\Icons\12.8cmL45_Icon.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -957,6 +959,7 @@
 		5km AI range
 		Fires HE shell
 		Temp BP: 100
+		Missileturret: DO NOT GROUP
 	</Description>
       <Icon>Textures\GUI\Icons\15cmTbtsKC36_Icon.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -1031,6 +1034,7 @@
 		4.5km AI range
 		Fires HE, SAP and Heal shell
 		Temp BP: 250
+		Missileturret: DO NOT GROUP
 	</Description>
       <Icon>Textures\GUI\Icons\5InchDualGun.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -1105,6 +1109,7 @@
 		4.5km AI range
 		Fires HE, SAP and Heal shell
 		Temp BP: 200
+		Missileturret: DO NOT GROUP
 	</Description>
       <Icon>Textures\GUI\Icons\127mmMk12_Icon.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -1177,6 +1182,7 @@
 		4.5km AI range
 		Fires HE, SAP and Heal shell
 		Temp BP: 225
+		Missileturret: DO NOT GROUP
 	</Description>
       <Icon>Textures\GUI\Icons\127mmMk24.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -1252,6 +1258,7 @@
 		5.5km Range
 		Fires AP and HE shells
 		Temp BP: 200
+		Missileturret: DO NOT GROUP
 	</Description>
       <Icon>Textures\GUI\Icons\6InchTripleGun.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -1325,6 +1332,7 @@
 	    7km AI range
 		Fires HE amd AP Shells
 		Temp BP: 400
+		Missileturret: DO NOT GROUP
 	</Description>
       <Icon>Textures\GUI\Icons\16InchTripleGun.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -1400,7 +1408,8 @@
 		15 Inch Twin gun
 		7km AI range
 		Fires HE amd AP Shells
-		Temp BP: 200
+		Temp BP: 250
+		Missileturret: DO NOT GROUP
 	</Description>
       <Icon>Textures\GUI\Icons\381mmR.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -1478,7 +1487,8 @@
 		15 Inch Twin gun
 		7km AI range
 		Fires HE amd AP Shells
-		Temp BP: 200
+		Temp BP: 250
+		Missileturret: DO NOT GROUP
 	</Description>
       <Icon>Textures\GUI\Icons\381mmNR.dds</Icon>
       <CubeSize>Large</CubeSize>
@@ -1551,11 +1561,12 @@
       </Id>	
       <DisplayName>150mm/36 Twin</DisplayName>
 	    <Description>
-         150mm Twin gun
-		    5km AI range
-		    Fires HE shell
-		    Temp BP: 125
-	    </Description>
+			150mm Twin gun
+			5km AI range
+			Fires HE shell
+			Temp BP: 125
+			Missileturret: DO NOT GROUP
+		</Description>
       <Icon>Textures\GUI\Icons\15cmR.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1629,11 +1640,12 @@
       </Id>	
       <DisplayName>150mm/36 Twin</DisplayName>
 	<Description>
-            150mm Twin gun
-		    5km AI range
-		    Fires HE shell
-		    Temp BP: 125
-	    </Description>
+		150mm Twin gun
+		5km AI range
+		Fires HE shell
+		Temp BP: 125
+		Missileturret: DO NOT GROUP
+	</Description>
       <Icon>Textures\GUI\Icons\15cmNR.dds</Icon>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
@@ -1710,6 +1722,7 @@
 		7km AI range
 		Fires HE amd AP Shells
 		Temp BP: 400
+		Missileturret: DO NOT GROUP
 	</Description>
       <Icon>Textures\GUI\Icons\380mmMLE1935_Icon.dds</Icon>
       <CubeSize>Large</CubeSize>

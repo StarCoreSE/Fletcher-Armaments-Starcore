@@ -7,9 +7,12 @@
 				<SubtypeId>203mmQuad</SubtypeId>
 			</Id>
 			<DisplayName>8" Quad Turret</DisplayName>
-			<Description>Quad barreled 203mm/8 Inch
-			Fires HE, AP
-			Ai range of 6.5km, shell range of 7km	</Description>
+			<Description>
+				Quad barreled 203mm/8 Inch
+				Fires HE, AP
+				Ai range of 6.5km, shell range of 7km
+				BP: 500
+			</Description>
 			<Icon>Textures\GUI\Icons\203quad.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
