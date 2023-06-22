@@ -191,7 +191,7 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                FA16InchUsShell,FA16InchAPShell,FA16InchShrap, // Must list all primary, shrapnel, and pattern ammos.
+                FA380mmShell,FA380mmAPShell,FA380mmShrap, // Must list all primary, shrapnel, and pattern ammos.
             },
             //Animations = FA16InchRecoil,
             //Upgrades = UpgradeModules,

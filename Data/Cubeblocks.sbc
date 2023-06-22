@@ -1108,7 +1108,7 @@
 		127mm Single gun
 		4.5km AI range
 		Fires HE, SAP and Heal shell
-		Temp BP: 200
+		Temp BP: 175
 		Missileturret: DO NOT GROUP
 	</Description>
       <Icon>Textures\GUI\Icons\127mmMk12_Icon.dds</Icon>
@@ -1181,7 +1181,7 @@
 		127mm Single gun
 		4.5km AI range
 		Fires HE, SAP and Heal shell
-		Temp BP: 225
+		Temp BP: 175
 		Missileturret: DO NOT GROUP
 	</Description>
       <Icon>Textures\GUI\Icons\127mmMk24.dds</Icon>
