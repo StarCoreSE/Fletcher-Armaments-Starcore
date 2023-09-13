@@ -53,7 +53,7 @@ namespace Scripts {
                 LockedSmartOnly = false, // Only fire at smart projectiles that are locked on to parent grid.
                 MinimumDiameter = 0, // Minimum radius of threat to engage.
                 MaximumDiameter = 0, // Maximum radius of threat to engage; 0 = unlimited.
-                MaxTargetDistance = 0, // Maximum distance at which targets will be automatically shot at; 0 = unlimited.
+                MaxTargetDistance = 4500, // Maximum distance at which targets will be automatically shot at; 0 = unlimited.
                 MinTargetDistance = 250, // Minimum distance at which targets will be automatically shot at.
                 TopTargets = 8, // Maximum number of targets to randomize between; 0 = unlimited.
                 CycleTargets = 3, // Number of targets to "cycle" per acquire attempt.
@@ -69,8 +69,8 @@ namespace Scripts {
             HardPoint = new HardPointDef
             {
                 PartName = "QF4 Pom Pom Remodel", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
-                DeviateShotAngle = 1f, // Projectile inaccuracy in degrees.
-                AimingTolerance = 15f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
+                DeviateShotAngle = 0.5f, // Projectile inaccuracy in degrees.
+                AimingTolerance = 7f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
                 AimLeadingPrediction = Advanced, // Level of turret aim prediction; Off, Basic, Accurate, Advanced
                 DelayCeaseFire = 0, // Measured in game ticks (6 = 100ms, 60 = 1 second, etc..). Length of time the weapon continues firing after trigger is released - while a target is available.
                 AddToleranceToTracking = true, // Allows turret to track to the edge of the AimingTolerance cone instead of dead centre.

@@ -59,7 +59,7 @@ namespace Scripts {
             HardPoint = new HardPointDef
             {
                 PartName = "40mm Bofors Quad Remodel", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
-                DeviateShotAngle = 0.5f, // Projectile inaccuracy in degrees.
+                DeviateShotAngle = 0.2f, // Projectile inaccuracy in degrees.
                 AimingTolerance = 0.1f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
                 AimLeadingPrediction = Advanced, // Level of turret aim prediction; Off, Basic, Accurate, Advanced
                 DelayCeaseFire = 0, // Measured in game ticks (6 = 100ms, 60 = 1 second, etc..). Length of time the weapon continues firing after trigger is released - while a target is available.
@@ -120,7 +120,7 @@ namespace Scripts {
                 },
                 Loading = new LoadingDef
                 {
-                    RateOfFire = 480, // Set this to 3600 for beam weapons. This is how fast your Gun fires.
+                    RateOfFire = 240, // Set this to 3600 for beam weapons. This is how fast your Gun fires.
                     BarrelsPerShot = 2, // How many muzzles will fire a projectile per fire event.
                     TrajectilesPerBarrel = 1, // Number of projectiles per muzzle per fire event.
                     SkipBarrels = 0, // Number of muzzles to skip after each fire event.
