@@ -956,7 +956,7 @@
       <DisplayName>150mm/36 Single</DisplayName>
 	<Description>
 		150mm Single gun
-		2.5km AI range
+		5km AI range
 		Fires HE shell
 		Temp BP: 100
 		Missileturret: DO NOT GROUP
@@ -1031,7 +1031,7 @@
       <DisplayName>5"/38 Mk32</DisplayName>
 	<Description>
 		127mm Twin gun
-		2km AI range
+		4km AI Range, 5km shell range, Heal has 6km
 		Fires HE, SAP and Heal shell
 		Temp BP: 250
 		Missileturret: DO NOT GROUP
@@ -1106,7 +1106,7 @@
       <DisplayName>5"/38 Mk12</DisplayName>
 	<Description>
 		127mm Single gun
-		2km AI range
+		4km AI Range, 5km shell range, Heal has 6km
 		Fires HE, SAP and Heal shell
 		Temp BP: 175
 		Missileturret: DO NOT GROUP
@@ -1179,7 +1179,7 @@
       <DisplayName>5"/38 Mk24</DisplayName>
 	<Description>
 		127mm Single gun
-		2m AI range
+		4km AI Range, 5km shell range, Heal has 6km
 		Fires HE, SAP and Heal shell
 		Temp BP: 175
 		Missileturret: DO NOT GROUP
@@ -1255,7 +1255,7 @@
       <DisplayName>6"/47 Triple Gun</DisplayName>
 	<Description>
 		6 Inch Triple gun
-		4km Range
+		5km Range
 		Fires AP and HE shells
 		Temp BP: 200
 		Missileturret: DO NOT GROUP
@@ -1328,8 +1328,8 @@
       </Id>	
       <DisplayName>16"/50 Triple Gun</DisplayName>
 	<Description>
-		16 Inch Triple Gun 
-	    5km AI range
+		16 Inch Triple Gun
+		6km AI range, 8km shell range
 		Fires HE amd AP Shells
 		Temp BP: 400
 		Missileturret: DO NOT GROUP
@@ -1406,7 +1406,7 @@
       <DisplayName>15" mk24 Dual</DisplayName>
 	<Description>
 		15 Inch Twin gun
-		5km AI range
+		6km AI range, 8km shell range
 		Fires HE amd AP Shells
 		Temp BP: 250
 		Missileturret: DO NOT GROUP
@@ -1485,7 +1485,7 @@
       <DisplayName>15" mk25 Dual</DisplayName>
 	<Description>
 		15 Inch Twin gun
-		5km AI range
+		6km AI range, 8km shell range
 		Fires HE amd AP Shells
 		Temp BP: 250
 		Missileturret: DO NOT GROUP
@@ -1562,7 +1562,7 @@
       <DisplayName>150mm/36 Twin</DisplayName>
 	    <Description>
 			150mm Twin gun
-			2.5km AI range
+			5km AI range
 			Fires HE shell
 			Temp BP: 125
 			Missileturret: DO NOT GROUP
@@ -1641,7 +1641,7 @@
       <DisplayName>150mm/36 Twin</DisplayName>
 	<Description>
 		150mm Twin gun
-		2.5km AI range
+		5km AI range
 		Fires HE shell
 		Temp BP: 125
 		Missileturret: DO NOT GROUP
@@ -1719,7 +1719,7 @@
       <DisplayName>15"/45 mk20 Quad gun</DisplayName>
 	<Description>
 		15 Inch Quad gun
-		5km AI range
+		6km AI range, 8km shell range
 		Fires HE amd AP Shells
 		Temp BP: 400
 		Missileturret: DO NOT GROUP
