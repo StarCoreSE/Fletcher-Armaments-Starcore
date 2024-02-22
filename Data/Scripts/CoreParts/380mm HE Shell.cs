@@ -60,7 +60,7 @@ namespace Scripts
             {
                 AmmoRound = "380mmShrap", // AmmoRound field of the ammo to spawn.
                 Fragments = 35, // Number of projectiles to spawn.
-                Degrees = 35, // Cone in which to randomise direction of spawned projectiles.
+                Degrees = 240, // Cone in which to randomise direction of spawned projectiles.
                 Reverse = false, // Spawn projectiles backward instead of forward.
                 DropVelocity = false, // fragments will not inherit velocity from parent.
                 Offset = 0f, // Offsets the fragment spawn by this amount, in meters (positive forward, negative for backwards).
@@ -392,7 +392,7 @@ namespace Scripts
             AmmoRound = "380mmShrap", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 2000f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 10000f, // Direct damage; one steel plate is worth 100.
             Mass = 100f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 50000f, // Recoil. This is applied to the Parent Grid.
@@ -597,7 +597,7 @@ namespace Scripts
                 TargetLossTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                 MaxLifeTime = 400, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..). Please have a value for this, It stops Bad things.
                 AccelPerSec = 0f, // Meters Per Second. This is the spawning Speed of the Projectile, and used by turning.
-                DesiredSpeed = 650, // voxel phasing if you go above 5100
+                DesiredSpeed = 150, // voxel phasing if you go above 5100
                 MaxTrajectory = 100f, // Max Distance the projectile or beam can Travel.
                 DeaccelTime = 0, // 0 is disabled, a value causes the projectile to come to rest, spawn a field and remain for a time (Measured in game ticks, 60 = 1 second)
                 GravityMultiplier = 0f, // Gravity multiplier, influences the trajectory of the projectile, value greater than 0 to enable. Natural Gravity Only.

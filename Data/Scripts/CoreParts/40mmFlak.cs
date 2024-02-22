@@ -53,7 +53,7 @@ namespace Scripts
             },
             ObjectsHit = new ObjectsHitDef
             {
-                MaxObjectsHit = 0, // Limits the number of entities (grids, players, projectiles) the projectile can penetrate; 0 = unlimited.
+                MaxObjectsHit = 4, // Limits the number of entities (grids, players, projectiles) the projectile can penetrate; 0 = unlimited.
                 CountBlocks = false, // Counts individual blocks, not just entities hit.
             },
             Fragment = new FragmentDef // Formerly known as Shrapnel. Spawns specified ammo fragments on projectile death (via hit or detonation).
@@ -155,9 +155,9 @@ namespace Scripts
                 ByBlockHit = new ByBlockHitDef
                 {
                     Enable = false,
-                    Radius = 5f, // Meters
+                    Radius = 120f, // Meters
                     Damage = 100f,
-                    Depth = 1f, // Meters
+                    Depth = 100f, // Meters
                     MaxAbsorb = 0f,
                     Falloff = Linear, //.NoFalloff applies the same damage to all blocks in radius
                     //.Linear drops evenly by distance from center out to max radius
@@ -230,7 +230,7 @@ namespace Scripts
                     GrowTime = 0, // How many ticks it should take the field to grow to full size.
                     HideModel = false, // Hide the projectile model if it has one.
                     ShowParticle = false, // Set to show block damage effect when ewared.
-                    TriggerRange = 250f, //range at which fields are triggered
+                    TriggerRange = 150, //range at which fields are triggered
                     Particle = new ParticleDef // Particle effect to generate at the field's position.
                     {
                         Name = "", // SubtypeId of field particle effect.
@@ -447,7 +447,7 @@ namespace Scripts
                 MaxIntegrity = 0f, // Blocks with integrity higher than this value will be immune to damage from this projectile; 0 = disabled.
                 DamageVoxels = false, // Whether to damage voxels.
                 SelfDamage = false, // Whether to damage the weapon's own grid.
-                HealthHitModifier = 50, // How much Health to subtract from another projectile on hit; defaults to 1 if zero or less.
+                HealthHitModifier = 10, // How much Health to subtract from another projectile on hit; defaults to 1 if zero or less.
                 VoxelHitModifier = 1, // Voxel damage multiplier; defaults to 1 if zero or less.
                 Characters = -1f, // Character damage multiplier; defaults to 1 if zero or less.
                 // For the following modifier values: -1 = disabled (higher performance), 0 = no damage, 0.01f = 1% damage, 2 = 200% damage.
@@ -603,10 +603,10 @@ namespace Scripts
                 Guidance = None, // None, Remote, TravelTo, Smart, DetectTravelTo, DetectSmart, DetectFixed
                 TargetLossDegree = 0f, // Degrees, Is pointed forward
                 TargetLossTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
-                MaxLifeTime = 120, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..). Please have a value for this, It stops Bad things.
+                MaxLifeTime = 250, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..). Please have a value for this, It stops Bad things.
                 AccelPerSec = 0f, // Meters Per Second. This is the spawning Speed of the Projectile, and used by turning.
-                DesiredSpeed = 500, // voxel phasing if you go above 5100
-                MaxTrajectory = 350f, // Max Distance the projectile or beam can Travel.
+                DesiredSpeed = 1000, // voxel phasing if you go above 5100
+                MaxTrajectory = 500f, // Max Distance the projectile or beam can Travel.
                 DeaccelTime = 0, // 0 is disabled, a value causes the projectile to come to rest, spawn a field and remain for a time (Measured in game ticks, 60 = 1 second)
                 GravityMultiplier = 0f, // Gravity multiplier, influences the trajectory of the projectile, value greater than 0 to enable. Natural Gravity Only.
                 SpeedVariance = Random(start: 0, end: 0), // subtracts value from DesiredSpeed. Be warned, you can make your projectile go backwards.
@@ -710,7 +710,7 @@ namespace Scripts
                     WidthVariance = Random(start: 0f, end: 0.1f), // adds random value to default width (negatives shrinks width)
                     Tracer = new TracerBaseDef
                     {
-                        Enable = true,
+                        Enable = false,
                         Length = 5f,
                         Width = 0.1f,
                         Color = Color(red: 40.80f, green: 8.20f, blue: 1.6f, alpha: 0.8f),
@@ -719,7 +719,7 @@ namespace Scripts
                     {
                         Enable = false,
                         Material = "WeaponLaser",
-                        DecayTime = 15,
+                        DecayTime = 5,
                         Color = Color(red: 2.585f, green: 2.062f, blue: 2.01f, alpha: 0.3f),
                         Back = false,
                         CustomWidth = 0.1f,
