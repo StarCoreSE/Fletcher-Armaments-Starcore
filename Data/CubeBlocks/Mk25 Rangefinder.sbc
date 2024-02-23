@@ -12,10 +12,10 @@
 				Can be used for camera targetting
 				Also extends lock range to 15km
 			</Description>
-			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
+			<Icon>Textures\GUI\Icons\Rangefinder.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="2"/>
+			<Size x="3" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Rangefinder\Mk25 Rangefinder.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
