@@ -25,8 +25,10 @@ namespace Scripts
 			FA381mmAlt,
 			FA16InchGun,
 			FA380mmMLE,
+            RangeFinderMK24,
 
-			FaBoforSingleRemodel,
+
+            FaBoforSingleRemodel,
 			FaBoforTwinRemodel,
 			FaBoforQuadRemodel,
 			FaPomPomRemodel,

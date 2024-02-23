@@ -283,6 +283,23 @@
 		  </AmmoMagazines>
 		  <ReloadTime>3300</ReloadTime>
 	  </Weapon>
+
+
+
+	  <Weapon>
+		  <Id>
+			  <TypeId>WeaponDefinition</TypeId>
+			  <SubtypeId>RangeFinderMK24</SubtypeId>
+		  </Id>
+		  <MissileAmmoData RateOfFire="400" ShootSoundName="5InchFire" ShotsInBurst="2" />
+		  <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+		  <DeviateShotAngle>0.25</DeviateShotAngle>
+		  <MuzzleFlashLifeSpan>2</MuzzleFlashLifeSpan>
+		  <AmmoMagazines>
+			  <AmmoMagazine Subtype="RFLAmmo" />
+		  </AmmoMagazines>
+		  <ReloadTime>3300</ReloadTime>
+	  </Weapon>
 	
     </Weapons>
 </Definitions>
